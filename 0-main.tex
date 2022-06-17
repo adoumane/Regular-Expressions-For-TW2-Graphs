@@ -1,0 +1,78 @@
+\documentclass[a4paper,UKenglish,cleveref, autoref, thm-restate]{lipics-v2021}
+
+%\documentclass[a4paper,UKenglish,cleveref, autoref, thm-restate]{lipics-v2021}
+  % concur page limit: title + 15p + refs + 5p app
+   
+\usepackage{microtype}%if unwanted, comment out or use option "draft"
+\usepackage{harengs}
+\usepackage{ebproofs}
+\usepackage{comment}
+\usepackage{fge}
+\usepackage{thm-restate}
+\usepackage[new]{old-arrows}
+\usepackage[utf8]{inputenc}
+ \usepackage[all]{xy}
+% \title{On graph homomorphisms and equational theories}
+% \title{On graph homomorphisms, binary relations, and equational theories}
+\title{Regular expressions for  tree-width 2 graphs}
+\titlerunning{Regular expressions for tree-width 2 graphs}
+\author{Anonymous}{Anonymous}{}{}{}
+
+\authorrunning{Anonymous}
+\Copyright{Anonymous}
+
+%Editor-only macros:: begin (do not touch as author)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\EventEditors{John Q. Open and Joan R. Access}
+\EventNoEds{2}
+\EventLongTitle{42nd Conference on Very Important Topics (CVIT 2016)}
+\EventShortTitle{CVIT 2016}
+\EventAcronym{CVIT}
+\EventYear{2016}
+\EventDate{December 24--27, 2016}
+\EventLocation{Little Whinging, United Kingdom}
+\EventLogo{}
+\SeriesVolume{42}
+\ArticleNo{23}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\subjclass{F.3.1 Specifying, verifying, and reasoning about programs}
+\keywords{Tree width, MSO, Regular expressions}
+\ccsdesc[500]{Mathematics of computing~Discrete mathematics}
+% \ccsdesc[500]{Theory of computation~Regular languages}
+% \ccsdesc[500]{Theory of computation~Proof theory}
+
+%\iflong
+%\hideLIPIcs
+%\DOIPrefix{}
+%\renewcommand\copyrightline{}
+%\nolinenumbers
+%%\relatedversion{This is the full version of the paper with the same title published in Proc. CONCUR 2020, available at \url{https://doi.org/10.4230/LIPIcs.CONCUR.2020.49}}
+%\else
+%\nolinenumbers
+%%\relatedversion{Appendix available at \url{https://hal.archives-ouvertes.fr/hal-02870687}}
+%\fi
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We propose a syntax of regular expressions, which describes languages of tree-width 2 graphs. We show that these languages correspond exactly to those languages of tree-width $2$ graphs, definable in the counting monadic second-order logic ($\CMSO$). 
+\end{abstract}
+
+
+
+%
+\input{1-Intro}
+\input{2-Prelims}
+\input{3-Regular-Expressions}
+\input{4-Companion-Relations}
+\input{5-Regular->MSO}
+\input{6-Recognizable->Regular}
+\input{7-Conclusion}
+\clearpage
+
+\bibliographystyle{plainurl}
+\bibliography{relationalgebra,long,main,pous}
+
+\end{document}
+

@@ -1,0 +1,134 @@
+\section{Recognizable implies regular}\label{app-sec:rec->reg}
+
+
+\begin{theorem}\label{app-thm:Rec->Reg}
+Let $L$ be a language of $\TWT$ graphs. If $L$ is recognizable then it is regular. 
+\end{theorem}
+
+\subsection{Guarded modules of a graph}
+
+\begin{definition}[Guarded modules]
+A module $M:\tau$ of a graph $G$ is \emph{guarded} if:
+\begin{itemize}
+\item $M$ is a maximal in $G$, when $\tau\in\set{\mathsf{p}, \mathsf{t}}$,
+\item $M$ has a parallel module in $G$, when $\tau=\mathsf{s}$.
+\end{itemize}
+We denote by $\mathsf{GM}(G)$ the set of guarded modules of $G$.
+\end{definition}
+
+\begin{proposition}
+If $M:\mathsf{\tau}$ a guarded module of $G$, then $x$ is $\tau$-guarded in $G[x/M]$. 
+%
+%Let $H$ be the graph obtained from $G$ be removing the (edges and inner vertices of the) module $M$ and adding an $x$-labeled edge with the same interface as $M$. 
+%The letter $x$ is $\tau$-guarded in $H$. 
+\end{proposition}
+
+
+\begin{lemma}\label{app-lem:pure-substitution}
+Let  $G[H/x]$ be a guarded substitution. We have: 
+$$\mathsf{GM}(G[H/x])=  \mathsf{GM}(G)[H/x] \cup \mathsf{GM}(H) \cup \set{H} $$
+\end{lemma}
+\begin{proof}
+We proceed by induction on the structure of $G$. 
+\end{proof}
+
+\subsection{Proof idea of Theorem~\ref{app-thm:Rec->Reg}}
+Here is the general idea of the proof, which follows the same lines as the proof of a similar result for binoids~\cite{Gazdag}.
+
+First, we show that if a language is recognizable by an algebra, then it is recognizable by a \emph{type respecting algebra}, that is to say an algebra where we can decompose its domain $D$ into subsets  $D_\mathsf{s}, D_\mathsf{p}$ etc, such that a graph is series,  parallel, etc, if and only if its image by the recognizing homomorphism is in $D_\mathsf{s}$, $D_\mathsf{p}$, etc. 
+
+Let $L$ be a language recognized by homomorphism $h$ and a type respecting algebra $\mathcal{A}$ whose domain is $D$.  For every  $r\in D$,  we show that $L_r$, which is the set of $\TWT$ graphs whose image is $r$, is regular. This is enough to conclude, since $L$ is a union of such languages. 
+
+We associate to every $r\in D$ a new letter $x_r$, and extend $h$ to graphs using these letters by setting $h(x_r)=r$. Let $P\subseteq D$  and $\Sigma$ a subset of the new letters,  we define the language $L^{P,\Sigma}_r$ as the set of graphs whose image by $h$ is $r$, which are allowed to use the new letters from $\Sigma$ and such that the image of their pure components belong to $P$. Our new goal is to show that $L^{P,\Sigma}_r$ is regular when the letters associated to $P$ and $\Sigma$ are disjoint. This allows us to conclude that $L_r$ is regular because $L_r=L^{D,\emptyset}_r$.    
+
+To prove that $L^{P,\Sigma}_r$ is regular, we proceed by induction on $P$. Let us discuss the case where $r\in D_\mathsf{s}$, so the graphs of $L^{P,\Sigma}_r$ are series.  When $P$ is empty, these graphs are actually word graphs, and the regularity of this languages is obtained from classical results. For the inductive step, that is, when $P=Q\uplus \set{v}$, we prove the following equality:
+$$L^{P,\Sigma}_r=L^{Q,\Sigma\cup\set{x_v}}_r[\mu x_v. L^{Q,\Sigma\cup\set{x_v}}_v/x_v][L^{Q,\Sigma}_v/x_v]  $$
+and show that all these substitutions and iterations are guarded. By induction hypothesis, and using the operations of iteration and substitution of the syntax, we conclude that $L^{P,\Sigma}_r$ is regular. 
+
+\subsection{Type respecting algebra}
+
+\begin{definition}
+Let  $\A$ be an algebra whose domain is $D$. We say that $\A$ is \emph{type respecting} if we can find subsets $D_\mathsf{atomic}$, $D_\mathsf{pure}, D_\mathsf{impure}, D_\mathsf{s}, D_\mathsf{p}, D_\mathsf{d}, D_\mathsf{t}$, $D_\mathsf{lp}$ and $D_\mathsf{\tau}$ of the domain $D$, such that for every term $t$, its graph is pure, impure,  series, parallel, domain, test, left-parallel or tree-like, if and only if the evaluation of $t$ belongs to theses sets respectively.  
+\end{definition}
+
+\begin{lemma}\label{app-prop:type-respecting-rec}
+If $L$ is a recognizable language of $\TWT$ graphs, then  it is recognizable by a type respecting algebra.
+\end{lemma}
+
+\begin{proof}
+D'abord remarquer que les tree like graphes sont generés par une syntaxe. Et c'est ça qui fait que c'est facile de se rappeler d'eux.
+We need to remember only a finite amount of information to know whether a graph is in each of these sets. 
+\end{proof}
+
+
+
+
+
+\subsection{Proof of Theorem~\ref{app-thm:Rec->Reg}}
+
+
+
+Let $L$ be a recognizable language. By Prop.~\ref{app-prop:type-respecting-rec}, we can assume that $L$ is recognized by a type respecting algebra, and keep the same notations used there. Let $h$ be a homomorphism recognizing $L$, and $F\subseteq D$ such that $L=h^{-1}(F)$. We define $L_r$ as the language of graphs whose image (by $h$) is $r$. Our goal is to show that $L_r$ is regular for every $r\in D$. This is enough to conclude because 
+$L=\underset{r\in F}{\bigcup}L_r$.
+\medskip
+
+First, we will show that $L_r$ is regular when \underline{$r\in D_\mathsf{pure}$}. 
+\medskip
+
+  Let $A_\mathsf{pure}$ be a alphabet containing a binary letter for each element of the set $D_\mathsf{s}\cup D_\mathsf{p}$, and a unary letter for each element of  $D_\mathsf{d}\cup D_\mathsf{t}$. If $r\in D_{\mathsf{pure}}$, we denote by $x_r$ its corresponding letter in $A_\mathsf{pure}$. We extend $h$  to terms over  $A\cup A_\mathsf{pure}$, by letting $h(x_r)=r$ for every $r\in D_\mathsf{pure}$.
+\smallskip
+
+Let $P \subseteq  D_{\mathsf{pure}}$, $\Sigma\subseteq A_\mathsf{pure}$ and $r\in D$. We define $L^{P,\Sigma}_r$ as the set of graph terms over the alphabet $A\cup \Sigma$ defined as follows. We let $G\in L^{P,\Sigma}_r$  if and only if:
+\begin{enumerate}
+\item The image of $G$ is $r$.
+\item The image of every pure components of $G$ belongs to $P$.
+\item If $r\in D_\mathsf{s}$,  then $G$ is not a series context for $x_r$.
+\item If $r\in D_\mathsf{p}\cup D_\mathsf{t}$,  then $G$ is not a parallel context for $x_r$.
+\end{enumerate}
+
+
+\noindent We show, by induction on the size of $P$, that $L^{P, \Sigma}_s$ is regular  if  the letters associated to $P$ and the set $\Sigma$ are disjoint. We start by the inductive step.
+\smallskip
+
+ \noindent \textbf{Inductive step.} Suppose that $P=Q\uplus \set{v}$. We prove the following equality:
+$$L^{P,\Sigma}_r=L^{Q,\Sigma\cup\set{x_v}}_r[\mu x_v. L^{Q,\Sigma\cup\set{x_v}}_v/x_v][L^{Q,\Sigma}_v/x_v] \qquad\qquad(\star) $$
+Substitutions and iterations in $(\star)$ are guarded thanks to the conditions 3 and 4 above. 
+Using this equality and the induction hypothesis, we can conclude that the language $L^{P,\Sigma}_r$ is regular. 
+
+
+The right-to-left implication follows from Lem.~\ref{app-lem:pure-substitution}.  Let us show the other inclusion. 
+
+\noindent A \emph{$v$-component} of a graph is a pure component of this graph whose image by $h$ is $v$.  The \emph{$v$-reduct} of a graph is the graph obtained by replacing every $v$-component by the letter $x_v$, such that the resulting graph has no $v$-components.  Let $G$ be a graph in  $L^{P,\Sigma}_r$,  we let: 
+\begin{itemize}
+\item $H$ be the $v$-reduct of $G$,
+\item $S$ be the set of $v$-reducts of the $v$-components of $G$.
+\item $T$ be the set of $v$-components of $G$, which do not contain further $v$-components.
+\end{itemize}
+We have the following inclusions: 
+$$G\in H[\mu x_r. T/x_r][S/x_r],\quad H\subseteq L^{Q,\Sigma\cup\set{x_v}}_r,\quad S\subseteq L^{Q,\Sigma\cup\set{x_v}}_v\ \  \text{ and }\ \ T\subseteq L^{Q,\Sigma}_v.$$
+This concludes the left-to-right inclusion of $(\star)$, and  the inductive step. Now let us treat the base case.  We have two base cases, one of them will make a call to the inductive step. 
+\medskip
+
+
+ \noindent \textbf{Base case 1.} $P$ is empty and $r\in D_\mathsf{s}\cup D_\mathsf{p}\cup D_\mathsf{t}$. Then the graphs of $L^{\emptyset,\Sigma}_r$ are either word graphs or multiset graphs. Their regularity follow from the case of words and commutative words.
+\medskip
+
+\begin{observation}
+Using base case 1 and the inductive step, we have that 
+$L^{P,\Sigma}_r$ is regular if $r\in D_\mathsf{s}\cup D_\mathsf{p}\cup D_\mathsf{t}$ and $P\subseteq D_\mathsf{s}\cup D_\mathsf{p}\cup D_\mathsf{t}$. 
+\end{observation}
+\medskip
+
+\noindent \textbf{Base case 2.} $P$ is empty and $r\in D_\mathsf{d}$.  The graphs of $L^{\emptyset,\Sigma}_r$ are tree-like graphs. 
+Let $S$ be the set of pairs $(v,a)$ such that $v\in D_{\mathsf{lp}}$, $a\in A_1$ and $r=\dom(v\cdot a)$. We have that:
+$$ L^{\emptyset, \Sigma}_r=\underset{(v,a)\in S}{\bigcup}\dom\big({L^{D_\mathsf{s}\cup D_\mathsf{t},\Sigma}_v\cdot a}\big)$$
+because left parallel graphs do not have unary pure components. The set $ L^{\emptyset, \Sigma}_r$ is regular thanks to the observation above. 
+\medskip
+
+When $r\in D_\mathsf{atomic}$,  $L_r$ is regular because it is finite. 
+\medskip
+
+Let us show that $L_r$ is regular when $r\in D_\mathsf{impure}$.
+Note that
+$$L_r= L^{\emptyset, A_\mathsf{pure}}_r[L_v/x_v, v\in D_\mathsf{pure}]$$
+The language $L^{\emptyset, A_\mathsf{pure}}_r$ is a language of multiset graphs, it regularity follows from the case of commutative words. The languages $L_v$ are regular because $v$ is pure, and this case was treated above. This concludes the proof. 

@@ -1,0 +1,90 @@
+\begin{thebibliography}{10}
+
+\bibitem{Mikolaj-long}
+Mikolaj Bojanczyk.
+\newblock Languages recognised by finite semigroups, and their generalisations
+  to objects such as trees and graphs, with an emphasis on definability in
+  monadic second-order logic.
+\newblock {\em CoRR}, abs/2008.11635, 2020.
+
+\bibitem{BojanczykP16}
+Mikolaj Bojanczyk and Michal Pilipczuk.
+\newblock Definability equals recognizability for graphs of bounded treewidth.
+\newblock In {\em {LICS}}, pages 407--416. {ACM}, 2016.
+
+\bibitem{BojanczykP17}
+Mikolaj Bojanczyk and Michal Pilipczuk.
+\newblock Optimizing tree decompositions in {MSO}.
+\newblock In {\em {STACS}}, volume~66 of {\em LIPIcs}, pages 15:1--15:13.
+  Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik, 2017.
+
+\bibitem{Buchi}
+J.~Richard B\"{u}chi.
+\newblock Weak second-order arithmetic and finite automata.
+\newblock {\em Mathematical Logic Quarterly}, 6(1-6):66--92, 1960.
+\newblock \href {https://doi.org/0.1002/malq.19600060105}
+  {\path{doi:0.1002/malq.19600060105}}.
+
+\bibitem{Cosme-LlopezP17}
+Enric Cosme{-}Ll{\'{o}}pez and Damien Pous.
+\newblock K4-free graphs as a free algebra.
+\newblock In {\em {MFCS}}, volume~83 of {\em LIPIcs}, pages 76:1--76:14.
+  Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik, 2017.
+
+\bibitem{Courcelle2012GraphSA}
+Bruno Courcelle and Joost Engelfriet.
+\newblock Graph structure and monadic second-order logic - a language-theoretic
+  approach.
+\newblock In {\em Encyclopedia of mathematics and its applications}, 2012.
+
+\bibitem{Elgot}
+Calvin~C. Elgot.
+\newblock Decision problems of finite automata design and related arithmetics.
+\newblock {\em Transactions of the American Mathematical Society}, 98:21--51,
+  1961.
+
+\bibitem{Engelfriet}
+Joost Engelfriet.
+\newblock A regular characterization of graph languages definable monadic
+  second-order logic.
+\newblock {\em Theor. Comput. Sci.}, 88(1):139–150, oct 1991.
+\newblock \href {https://doi.org/10.1016/0304-3975(91)90078-G}
+  {\path{doi:10.1016/0304-3975(91)90078-G}}.
+
+\bibitem{Gazdag}
+Zsolt Gazdag and Zolt{\'a}n~L. N{\'e}meth.
+\newblock A kleene theorem for bisemigroup and binoid languages.
+\newblock {\em Int. J. Found. Comput. Sci.}, 22:427--446, 2011.
+
+\bibitem{Gcseg}
+Ferenc G{\'e}cseg and Magnus Steinby.
+\newblock Tree languages.
+\newblock In {\em Handbook of Formal Languages}, 1997.
+
+\bibitem{Kleene}
+S.C. Kleene.
+\newblock Representation of events in nerve nets and finite automata.
+\newblock In C.E. Shannon and J.~McCarthy, editors, {\em Automata Studies},
+  pages 3--40, 1956.
+\newblock Princeton.
+
+\bibitem{Kuske}
+Dietrich Kuske and Ingmar Meinecke.
+\newblock Construction of tree automata from regular expressions.
+\newblock {\em RAIRO - Theoretical Informatics and Applications - Informatique
+  Th\'eorique et Applications}, 45(3):347--370, 2011.
+\newblock URL: \url{http://www.numdam.org/articles/10.1051/ita/2011107/}, \href
+  {https://doi.org/10.1051/ita/2011107} {\path{doi:10.1051/ita/2011107}}.
+
+\bibitem{Robertson}
+Neil Robertson and Paul~D. Seymour.
+\newblock Graph minors. iv. tree-width and well-quasi-ordering.
+\newblock {\em J. Comb. Theory, Ser. B}, 48:227--254, 1990.
+
+\bibitem{Thatcher}
+James~W. Thatcher and Jesse~B. Wright.
+\newblock Generalized finite automata theory with an application to a decision
+  problem of second-order logic.
+\newblock {\em Mathematical systems theory}, 2:57--81, 2005.
+
+\end{thebibliography}

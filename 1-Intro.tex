@@ -1,0 +1,60 @@
+\section{Introduction}
+
+Regular word languages form a robust class of languages. One of the
+witnesses for this robustness is the variety of equivalent formalisms defining them. They can be described by finite automata, by
+monadic second-order ($\MSO$) formulas, by regular expressions or by finite
+monoids~\cite{Buchi, Elgot, Kleene}. Each of these formalisms has some advantages, depending on the
+context where it is used.
+For example, $\MSO$ is close to natural language, regular expressions define regular languages via their closure properties, automata
+have good algorithmic properties and can be used as actual algorithms to
+decide membership in a language, etc. Similarly, regular tree languages have  equivalent formalisms, for various kinds of trees \cite{Kuske, Thatcher, Gcseg}.
+\smallskip
+
+We will here further generalize the structures considered, by moving to
+graphs of bounded tree-width. Intuitively, they can be thought of as
+``graphs which resemble trees''. In this framework, we already know that counting $\MSO$ ($\CMSO$), an extension of $\MSO$ with counting predicates, and recognizability by
+algebra are equivalent \cite{BojanczykP16, BojanczykP17}, yielding a notion that
+could be called ``regular languages of graphs of tree-width $k$''.
+Engelfriet \cite{Engelfriet} also proposes a regular expressions formalism
+matching this class, but by his own admission, these expressions closely
+mimic the behavior of $\CMSO$. The main feature missing in Engelfriet's regular expressions is a mechanism for iteration, which is the central operator for word regular expressions: the Kleene star.
+\smallskip
+
+In this paper, we propose a syntax of regular expressions for languages
+of tree-width $2$ graphs, that follow more closely the spirit of regular
+expressions on words, using Kleene-like iterations.
+This constitutes a first step towards the long term objective of obtaining
+such expressions for languages of graphs of tree-width $k$.
+We believe the case of tree-width $2$ is already a significant step in itself. Graphs of tree-width $2$ form a robust class of
+graphs with several interesting characterizations. One of them
+ is the characterization  via the forbidden minor $K_4$, the complete graph with four vertices. By the Robertson-Seymour theorem \cite{Robertson}, it is known
+that for every $k\in\mathbb{N}$, the class of tree-width $k$ graphs is
+characterized by a finite set of excluded minors.
+However, this result is not constructive, and only the  forbidden minors for $k\leq 3$ are known. 
+%Moreover, the number of forbidden minors grows
+%exponentially with $k$ \cite{ExpMinors}, so this characterization can
+%quickly become impractical.
+\smallskip
+
+Let us now give more intuition about our expressions for graphs of
+tree-width $2$. Our Kleene-like iteration is defined in terms of least
+fixed points $\mu x.\ e$.
+However without restriction, such an operator is too powerful and takes
+us outside of the $\CMSO$-definable graphs. This phenomenon actually already
+happens on words: with an arbitrary fixed point, we can write $\mu x.\ (axb)$,
+defining the non-regular language $\set{a^nxb^n\ |\ n\in\mathbb{N}}$. The Kleene star on
+words can be seen as a restriction of the least fixed point operator: only
+fixed points of the form $\mu x.\ ex$ are allowed, where $x$ does not appear in $e$.
+Here the idea is the same, but our restriction will be more involved,
+and will require a fine understanding of the structure of tree-width $2$
+graphs.
+\smallskip
+
+
+This work was inspired by the work of Gazdag and Németh~\cite{Gazdag} on regular expressions for bisemigroups and  binoids.   One of the main difference with our work is that their operators are only associative, while the operations generating our graphs satisfy more properties. 
+
+\smallskip
+The paper is structured as follows. Sec.~\ref{sec:prelim} is a preliminary section where we introduce graphs of tree-width 2, the logic $\CMSO$ and recognizability by algebra, which are known to be equivalent. In Sec~\ref{sec:reg-exp}, we introduce regular expressions, explain the condition that the iteration should satisfy, and give  some examples  to illustrate it. At the end of this section, we state our main result, which says that this formalism is equivalent to the two introduced in the preliminary section. We introduce in Sec.~\ref{sec:comp-rel} the logic $\CMSO^r$, an extension of $\CMSO$ with a very restricted form of quantification over relations, and show that it is equivalent to $\CMSO$. Based on this, we show in section~\ref{sec:reg->def} that regularity implies $\CMSO$-definability. Finally, we show in section~\ref{sec:rec->reg} that recognizability implies regularity, proving our main result. 
+%\smallskip
+%
+%A long version of this paper, providing proofs and more details, can be found in the appendix.

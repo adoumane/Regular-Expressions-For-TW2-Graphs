@@ -1,0 +1,551 @@
+\newif\iflong %false by default
+\longtrue
+
+% \usepackage[T1]{fontenc}
+\usepackage[]{algorithm2e}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm,proof}
+\usepackage{ifthen}
+\usepackage{mathpartir}
+\usepackage{mathrsfs}
+\usepackage{mathtools}
+\usepackage{stmaryrd}
+\SetSymbolFont{stmry}{bold}{U}{stmry}{m}{n}
+\usepackage{yfonts}
+\usepackage{scalerel}
+\usepackage{multicol,multirow}
+\usepackage{array}
+\usepackage{xparse}
+\usepackage{xspace}
+\usepackage{xcolor}
+\definecolor{dimgray}{rgb}{0.4,0.4,0.4}
+\definecolor{citecolor}{rgb}{0.0,0.4,0.0}
+\definecolor{urlcolor}{rgb}{0.0,0.0,0.4}
+\definecolor{linkcolor}{rgb}{0.0,0.0,0.4}
+\definecolor{ltblue}{rgb}{0,0.4,0.4}
+\definecolor{dkblue}{rgb}{0,0.1,0.6}
+\definecolor{dkgreen}{rgb}{0,0.35,0}
+\definecolor{dkgreen}{rgb}{0,0.35,0}
+\definecolor{dkviolet}{rgb}{0.3,0,0.5}
+\definecolor{dkred}{rgb}{0.5,0,0}
+\definecolor{orange}{rgb}{0.9,0.5,0.3}
+\definecolor{violet}{rgb}{0.7,0,0.7}
+
+\iflong
+\newcommand\citeapp[2]{Appendix~#1}
+\else
+\newcommand\citeapp[2]{\cite[Appendix~#2]{this:hal}}
+\fi
+
+\newcommand\covece{
+This work has been funded by the European Research Council (ERC)
+under the European Union’s Horizon 2020 programme (CoVeCe, grant
+agreement No 678157).}
+\newcommand\milyon{
+This work was supported by the LABEX MILYON (ANR-10-LABX-0070) of
+Université de Lyon, within the program "Investissements d'Avenir"
+(ANR-11-IDEX-0007) operated by the French National Research Agency
+(ANR).}
+\newcommand\covecemilyon{
+This work has been funded by the European Research Council (ERC-StG CoVeCe 678157) and the French National Research Agency (ANR-10-LABX-0070 ANR-11-IDEX-0007).}
+\newcommand\LIP{Univ Lyon, CNRS, ENS de Lyon, UCB Lyon 1, LIP, Lyon, France}
+
+% \usepackage[pdftex,
+% plainpages=false,
+% pdfpagelabels,
+% linktoc=all,
+% bookmarks=true,
+% bookmarksopen=true,
+% breaklinks=true,
+% colorlinks,scriptscriptstyle\uparrow}
+% linkcolor=linkcolor,
+% urlcolor=urlcolor,
+% citecolor=citecolor]{hyperref} 
+\usepackage[all]{hypcap}
+
+\usepackage{tikz}
+\usetikzlibrary{fit,calc,shapes,decorations.pathreplacing,positioning,backgrounds,arrows,cd}
+
+\def\ie{{\em i.e.}}
+\def\eg{{\em e.g.}}
+\def\cf{{\em cf.}}
+
+%% MnSymbols nonsense
+\DeclareFontFamily{U} {MnSymbolC}{}
+\DeclareFontShape{U}{MnSymbolC}{m}{n}{
+    <-6>  MnSymbolC5
+   <6-7>  MnSymbolC6
+   <7-8>  MnSymbolC7
+   <8-9>  MnSymbolC8
+   <9-10> MnSymbolC9
+  <10-12> MnSymbolC10
+  <12->   MnSymbolC12}{}
+\DeclareFontShape{U}{MnSymbolC}{b}{n}{
+    <-6>  MnSymbolC-Bold5
+   <6-7>  MnSymbolC-Bold6
+   <7-8>  MnSymbolC-Bold7
+   <8-9>  MnSymbolC-Bold8
+  <9-10> MnSymbolC-Bold9
+  <10-12> MnSymbolC-Bold10
+  <12->   MnSymbolC-Bold12}{}
+\DeclareSymbolFont{MnSyC} {U} {MnSymbolC}{m}{n}
+\DeclareSymbolFont{fgerm}{U}{fgerm}{m}{n}
+\DeclareMathSymbol{\smalltriangleright}{\mathrel}{MnSyC}{72}
+\DeclareMathSymbol{\smalltriangleleft}{\mathrel}{MnSyC}{74}
+\DeclareMathSymbol{\fgecup}{\mathord}{fgerm}{"4E}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+\DeclareMathAlphabet{\mathbbm}{U}{bbm}{m}{n}
+
+\theoremstyle{plain}
+% \newtheorem{constraint}{Constraint}
+ %\newtheorem{observation}{Observation}
+% \newtheorem{terminology}{Terminology}
+% \newtheorem{proviso}{Proviso}
+% \newtheorem{conjecture}{Conjecture}
+%\newtheorem{assumption}[theorem]{Assumption}
+%\newtheorem{observation}[theorem]{Observation}
+%\newtheorem{fact}[theorem]{Fact}
+
+
+\renewcommand\epsilon\varepsilon
+\renewcommand\hat\widehat
+\renewcommand\phi\varphi
+\newcommand\red[1]{\textcolor{red}{#1}}
+
+\newcommand\set[1]{\left\{#1\right\}}
+\newcommand\tuple[1]{\left\langle{#1}\right\rangle}
+\newcommand\paren[1]{\left({#1}\right)}
+\newcommand\bracket[1]{\left[{#1}\right]}
+\newcommand\pset[1]{\mathcal P\paren{#1}}
+\newcommand\fpset[1]{\mathcal P_f\paren{#1}}
+\newcommand\setcompr[2]{\left\{#1~\middle|~#2\right\}}
+\newcommand\Mid{\mathrel{~\mid~}}
+\newcommand\lolli\multimap
+\newcommand\restr[2]{#1{\restriction}_{#2}}
+\newcommand\card[1]{\left|#1\right|}
+\newcommand\eqdef\triangleq
+\newcommand\nth{\textsuperscript{th}\xspace} 
+\newcommand\Nat{\mathbb N}
+\newcommand{\fleche}[1]{\stackrel{#1}{\to}}
+
+% Axiomatization
+\newcommand\SP{\ensuremath{\mathsf{SP}}\xspace}
+\newcommand\SPO{\ensuremath{\mathsf{SP1}}\xspace}
+\newcommand\SPT{\ensuremath{\mathsf{SP\top}}\xspace}
+\newcommand\SPOT{\ensuremath{\mathsf{SP1\top}}\xspace}
+
+\newcommand\aH{\ensuremath{\mathcal{H}}\xspace}
+\newcommand\aI{\ensuremath{\mathcal{I}}\xspace}
+\newcommand\aP{\ensuremath{\mathcal{P}}\xspace}
+\newcommand\aSP{\ensuremath{\mathcal{SP}}\xspace}
+\newcommand\aSPO{\ensuremath{\mathcal{SP}^1}\xspace}
+\newcommand\aSPT{\ensuremath{\mathcal{SP}^\top}\xspace}
+\newcommand\aSPOT{\ensuremath{\mathcal{SP}^{1\top}}\xspace}
+
+\newcommand\SPTi{\ensuremath{\mathsf{SP\top}_{\simeq}}\xspace}
+\newcommand\SLMT{\ensuremath{\mathsf{SLM\top}}\xspace}
+\newcommand\SPOL{\ensuremath{\mathsf{SP1^\circlearrowright}}\xspace}
+\newcommand\SPOTL{\ensuremath{\mathsf{SP1\top^\circlearrowright}}\xspace}
+\newcommand\KLm{\ensuremath{\mathsf{KL}^-}\xspace}
+\newcommand\SLSG{\ensuremath{sl-\mathsf{SG}}\xspace}
+\newcommand\KAm{\ensuremath{\mathsf{KA}^-}\xspace}
+\newcommand\KL{\ensuremath{\mathsf{KL}}\xspace}
+\newcommand\KA{\ensuremath{\mathsf{KA}}\xspace}
+\newcommand\KAC{\ensuremath{\mathsf{KAC}}\xspace}
+\newcommand\DL{\ensuremath{\mathsf{DL}}\xspace}
+\newcommand\AxHom{\ensuremath{\mathsf{Hom}}\xspace}
+% local
+\newcommand\structured[1]{\tuple{#1}}
+\newcommand\floor[1]{\lfloor #1\rfloor}
+\newcommand\ceil[1]{\lceil #1 \rceil}
+\newcommand\f{\ensuremath{\mathsf{f}}}
+
+\newcommand\ptime{{\textsc{P}}}
+\newcommand\np{{\textsc{NP}}}
+\newcommand\conp{{\textsc{coNP}}}
+\newcommand\pspace{{\textsc{PSpace}}}
+\newcommand\expspace{{\textsc{ExpSpace}}}
+\newcommand\G{\mathcal G}
+\newcommand\Hyp{\mathcal H}
+\newcommand\cP{\mathcal P}
+\newcommand\cL{\mathcal L}
+\newcommand\cE{\mathcal E}
+\newcommand\IP{\mathbb{P}}
+\newcommand\X{\mathbb{X}}
+\newcommand\cT{\mathcal T}
+\newcommand\parll{\!\parallel\!}
+\newcommand\comp{\!\cdot\!}
+%\renewcommand\L{\mathcal L}
+\newcommand\CC{\mathcal{C}}
+\newcommand\cS{\mathcal S}
+\newcommand\cD{\mathcal D}
+\newcommand\cR{\mathcal R}
+\newcommand\cI{\mathcal I}
+\newcommand\cX{\mathcal X}
+\newcommand\cY{\mathcal Y}
+\newcommand\col{\mathsf{col}}
+\newcommand\Gr[1]{\G\paren{#1}}
+\newcommand\Grs[1]{\G'\paren{#1}}
+\newcommand\id{\mathrm{id}}
+\newcommand\trmc{{\mathcal{T}}}
+\newcommand\trm[1]{\trmc_{#1}\paren{A}}
+\newcommand\Lg[1]{\L\paren{#1}}
+\newcommand\Xb{X_\bullet}
+\newcommand\Trm[1][X]{\text{Trm}_{#1}}
+\newcommand\Exp[1][X]{\text{Exp}_{#1}}
+\newcommand\STrm[1][\Xb]{\Trm[#1]^-}
+\newcommand\SExp[1][\Xb]{\Exp[#1]^-}
+\newcommand\Gph[1][X]{\text{Gph}_{#1}}
+%\newcommand\SP[1][\Xb]{\text{SP}_{#1}}
+\newcommand\PA[1][\Xb]{\text{PA}_{#1}}
+\newcommand\detype[1]{\left\lfloor{#1}\right\rfloor}
+\newcommand\retype[1]{\left\lceil{#1}\right\rceil}
+\newcommand\tms[1]{\left\llbracket {#1}\right\rrbracket}
+\newcommand\converse\circ
+\newcommand\conv[1]{{#1}^\converse}
+%\newcommand\lesstm\blacktriangleleft
+\newcommand\lesstm\leq
+\newcommand\lessgr\blacktriangleright 
+\newcommand\lessgru\rhd
+\newcommand\lessgrh{\underset{\Hyp}{\lhd}}
+
+\newcommand\sarrow{\scriptscriptstyle\uparrow}
+
+\newcommand\lessgrX[1][X]{\mathrel{\lhd^{#1}}}
+\newcommand\lessgrnX[1][X]{\mathrel{\lhd_n^{#1}}}
+\newcommand\lessgrkX[1][X]{\mathrel{\lhd_k^{#1}}}
+\newcommand\nlessgr[1][n]{\mathrel{\not\!\!{\lessgr^*}_{#1}\,}}
+\newcommand\lessgrTwoTop{\mathrel{\lhd_2^{\SPT}}}
+\newcommand\nlessgrn[1]{\mathrel{\not\!\!\mathrel{\lhd_n^{#1*}}}}
+\newcommand\lessgro{\lhd^1}
+\newcommand\lessgrt{\lhd^\top}
+\newcommand\lessgrot{\lhd^{1\top}}
+\newcommand\ostar{\textcircled{$\star$}}
+\newcommand\cltm[1]{\prescript{\lesstm}{}{#1}}
+\newcommand\clgr[1]{\prescript{\lessgr}{}{#1}}
+\newcommand\boxset[1][]{{\mathpzc B}_{#1}}
+\newcommand\boxsetb[3][]{\boxset[#1]\bracket{#2,#3}}
+\newcommand\tboxset[1][]{{\textfrak B}_{#1}}
+\newcommand\tboxsetb[3][]{\tboxset[#1]\bracket{#2,#3}}
+\newcommand\gboxsetc{\mathpzc{BT}}
+\newcommand\gboxset[2]{\gboxsetc\bracket{#1,#2}}
+\newcommand\gtboxsetc{\textfrak{BT}}
+\newcommand\gtboxset[2]{\gtboxsetc\bracket{#1,#2}}
+\newcommand\bid[1]{\text{id}_{#1}}
+\newcommand\gbid[1]{1_{#1}}
+\newcommand\typ[1][P]{\mathbb T_{#1}}
+\newcommand\ers[2][a]{\left\lfloor #2 \right\rfloor_{#1}}
+\newcommand\typtobox[2][a]{\boxed{#2}_{#1}}
+\newcommand\Mns[1]{\mathcal M_{ns}\paren{#1}}
+
+\newcommand\Alphabet A
+\newcommand\hooksim{\mathrel{\dot\hookrightarrow}}
+
+% PA names:
+\newcommand\A{\mathcal A}
+\newcommand\B{\mathcal B}
+% TA names:
+\newcommand\E{\mathcal E}
+\renewcommand\H{\mathcal H}
+
+\newcommand\F{\mathscr F}
+\newcommand\I{\mathcal I}
+\newcommand\TWT{\mathsf{tw_2}}
+\newcommand\cTWT{\mathsf{ctw_2}}
+\renewcommand\SP{\mathsf{SP}}
+\newcommand\ER{\mathsf{ER}}
+\newcommand\HR{\mathsf{HR}}
+\newcommand\FO{\mathsf{FO}}
+\newcommand\C{\mathcal C}
+\renewcommand\O[1]{\mathcal O\paren{#1}}
+\newcommand\Nu{\mathcal N}
+\newcommand\R{\mathbin{\mathcal R}}
+\newcommand\argument\_
+\newcommand\dom{\mathsf{dom}}
+\newcommand\img[1]{\text{img}\paren{#1}}
+\newcommand\Ln[1]{\L\paren{#1}}
+\newcommand\Run[1][\A]{\text{Run}_{#1}}
+\newcommand\aRun[1][\A]{\text{Run}^{acc}_{#1}}
+\newcommand\duck\preccurlyeq
+\newcommand\gtgr\blacktriangleright
+% \renewcommand\path[2]{\xrightarrow{\ #1\ }_{#2}}
+\newcommand\boxtrans[2]{box\paren{#1,#2}}
+\newcommand\boxrun[1]{box\paren{#1}}
+\newcommand\supp[1]{{supp}\paren{#1}}
+\newcommand\stable[1]{{stable}\paren{#1}}
+\newcommand\run{R}
+\newcommand\spred[1][]{\rightarrow_{SP}^{#1}}
+\newcommand\pf[1][]{\textgoth p_{#1}}
+\newcommand\pin[1][]{\overrightarrow{\pf[#1]}}
+\newcommand\pout[1][]{\overleftarrow{\pf[#1]}}
+\newcommand\rlangc{{\mathcal B}}
+\newcommand\rlang[1]{\rlangc(#1)}
+% \newcommand\rlang[1]{\llparenthesis{#1}\rrparenthesis}
+% {\stretchleftright{}{\displaystyle \makebox[0pt][c]{\color{white} $\beta$}{#1}}{\rrparenthesis}}
+
+\newcommand\todo[1]{\marginpar{\textcolor{red}{#1}}}
+% \newcommand\terminology[1]{{#1}}
+% \newcommand\damien[1]{\marginpar{\textcolor{blue}{DP: #1}}}
+% \newcommand\amina[1]{\marginpar{\textcolor{violet}{AD: #1}}}
+% \newcommand\damien[1]{}
+% \newcommand\amina[1]{}
+% \newcommand\noteforlater[1]{\marginpar{\textcolor{red}{#1}}}
+\newcommand\noteforlater[1]{}
+
+\newcommand\homto\rhd
+\DeclareDocumentCommand{\Rel}{o}{\mathcal{R}el\IfNoValueTF{#1}{}{\tuple{#1}}}
+\DeclareDocumentCommand{\Lang}{o}{\mathcal{L}ang\IfNoValueTF{#1}{}{\tuple{#1}}}
+\DeclareDocumentCommand\catbox{ O{Y} O{P} }{{\mathpzc{Box}^{#1}_{#2}}}
+\DeclareDocumentCommand\tcatbox{ O{Y} O{P} }{{\mathpzc{TBox}^{#1}_{#2}}}
+\DeclareDocumentCommand\atrans{ O{\tr} O{\A} m m }{%
+  {{#2}\vdash {#1}:#3\rightarrow #4}
+}
+\DeclareDocumentCommand\Atrans{ m m m m }{%
+  {#3\overset{#1}{\rightarrow}_{#2}#4}
+}
+\DeclareDocumentCommand\tr{ s O{} O{} O{} }{%
+      \IfBooleanTF #1
+      {
+        \ifthenelse{\equal{#4}{}}
+        {t'_{\ifthenelse{\equal{#3}{}}{#2}{#3,#2}}}
+        {t'^{#4}_{\ifthenelse{\equal{#3}{}}{#2}{#3,#2}}}
+      }
+      {
+        \ifthenelse{\equal{#4}{}}
+        {t_{\ifthenelse{\equal{#3}{}}{#2}{#3,#2}}}
+        {t^{#4}_{\ifthenelse{\equal{#3}{}}{#2}{#3,#2}}}
+      }
+}
+
+
+\DeclareDocumentCommand\Tr{ s O{} O{} O{} }{%
+      \IfBooleanTF #1
+      {
+        \ifthenelse{\equal{#4}{}}
+        {T'_{\ifthenelse{\equal{#3}{}}{#2}{#3,#2}}}
+        {T'^{#4}_{\ifthenelse{\equal{#3}{}}{#2}{#3,#2}}}
+      }
+      {
+        \ifthenelse{\equal{#4}{}}
+        {T_{\ifthenelse{\equal{#3}{}}{#2}{#3,#2}}}
+        {T^{#4}_{\ifthenelse{\equal{#3}{}}{#2}{#3,#2}}}
+      }
+}
+\DeclareDocumentCommand\trin{ s O{} O{} }{%
+  {\prescript{\smalltriangleleft}{}{
+      \IfBooleanTF #1
+      {\tr*[#2][#3]}
+      {\tr[#2][#3]}
+    }
+  }
+}
+\DeclareDocumentCommand\trout{ s O{} O{} O{}}{%
+  {\prescript{}{#4}{
+      \IfBooleanTF #1
+      {\tr*[#2][#3][\smalltriangleright]}
+      {\tr[#2][#3][\smalltriangleright]}
+    }
+  }
+}
+
+\DeclareDocumentCommand\Trin{ s O{} O{} }{%
+  {\prescript{\smalltriangleleft}{}{
+      \IfBooleanTF #1
+      {\Tr*[#2][#3]}
+      {\Tr[#2][#3]}
+    }
+  }
+}
+
+\DeclareDocumentCommand\Trout{ s O{} O{} O{}}{%
+  {\prescript{}{#4}{
+      \IfBooleanTF #1
+      {\Tr*[#2][#3][\smalltriangleright]}
+      {\Tr[#2][#3][\smalltriangleright]}
+    }
+  }
+}
+
+
+\DeclareDocumentCommand\settrout{ s O{} O{} }{%
+  {% s\paren
+    \IfBooleanTF #1
+    {\pi_2\paren{\trout*[#2][#3]}}
+    {\pi_2\paren{\trout[#2][#3]}}
+  }
+}
+\DeclareDocumentCommand\trexp{ O{} O{} }{%
+  {\tuple{\trin[#1][#2],\trout[#1][#2]}}
+}
+
+\makeatletter
+\DeclareRobustCommand{\rvdots}{%
+  \vbox{
+    \baselineskip4\p@\lineskiplimit\z@
+    \kern-\p@
+    \hbox{.}\hbox{.}\hbox{.}
+  }}
+\makeatother
+
+
+%%%%% tikz
+
+\tikzstyle{blop}=[circle,fill=black,inner sep=1]
+\tikzstyle{token}=[circle,draw]
+\tikzstyle{vert}=[thick,draw,circle,fill=blue!10,minimum height=15,inner sep=1]
+\tikzstyle{bigvert}=[thick,draw,rounded corners=11pt,fill=blue!10,
+minimum height=22,minimum width=22,inner sep=1]
+\tikzstyle{state}=[thick,draw,circle,fill=blue!10,inner sep=1]
+\tikzstyle{trans}=[thick,draw,minimum height=15,fill=yellow!30,inner sep=2]
+\tikzstyle{transf}=[thick,draw,minimum height=15,fill=red!30,inner sep=2]
+\tikzstyle{active}=[thick,draw,minimum height=5ex,fill=green!40]
+\tikzstyle{blocked}=[thick,draw,minimum height=5ex,fill=red!40]
+\tikzstyle{arc}=[thick,->,>=stealth]
+\tikzstyle{every node}=[font=\footnotesize]
+\tikzstyle{portnode}=[inner sep=0.2,outer sep=0.2]
+\tikzstyle{portarc}=[->,>=latex]
+
+\tikzstyle{every loop above}=[min distance=10mm,looseness=10]
+\tikzstyle{uploop}=[out=55,in=125,loop, above]
+\tikzstyle{dnloop}=[out=-125,in=-55,loop, below]
+\tikzstyle{lfloop}=[out=145,in=-145,loop, left]
+\tikzstyle{rgloop}=[out=-35,in=35,loop, right]
+
+\DeclareDocumentCommand\initst{O{.5} r()}
+{\draw[arc] ($ (#2) + (-#1,0) $) to (#2)}
+\DeclareDocumentCommand\position{O{}O{above}r()r()}
+{\node[state] (#3) at (#4) [label=#2:$#1$] {}}
+\DeclareDocumentCommand\state{O{}r()r()}
+{\node[state] (#2) at (#3) {$#1$}}
+\DeclareDocumentCommand\transb{O{}r()r()}{
+  \node[trans] (#2) at (#3) {};
+  \node (l#2) at ($ (#3) + (0,0.6) $) {$#1$}}
+\DeclareDocumentCommand\trans{O{}r()r()}
+{\node[trans] (#2) at (#3) {$#1$}}
+\DeclareDocumentCommand\transf{O{}r()r()}
+{\node[transf] (#2) at (#3) {$#1$}}
+\DeclareDocumentCommand\transfb{O{}r()r()}{
+  \node[transf] (#2) at (#3) {};
+  \node (l#2) at ($ (#3) + (0,0.6) $) {$#1$}}
+\DeclareDocumentCommand\fnst{O{.5}r()}
+{\draw[arc] (#2) to ($ (#2) + (#1,0) $)}
+\DeclareDocumentCommand\edge{O{above}O{midway}r()r()O{}}
+{\draw[arc] (#3) to[#1] node[#2]{$#5$} (#4)}
+% \DeclareDocumentCommand\token[2]{\filldraw[fill=#2] (#1) circle [radius=0.05]}
+\DeclareDocumentCommand\etat{O{}r()r()}
+{\node[state,minimum height=4ex]
+  (#2) at (#3) {$#1$}}
+\DeclareDocumentCommand\final{O{1,0}r()}{
+  % \draw[thick,dotted,fill=red!10] ($ (#1) + (-0.4,-0.4) $) rectangle ($ (#1) + (0.4,0.4) $)
+  \transf (fntr) ($(#2)+(#1)$);
+  \edge(#2)(fntr);
+}
+
+\DeclareDocumentCommand\auto{O{0,0}r()r()}{
+  \draw[>=latex,out=40,in=140,fill=gray!10] (#3)
+  to ($ (#3) + (1.5,0) + (#1) + (#1)$) to [in=-40,out=-140]  (#3);
+  \etat[\iota_#2] (i#2) (#3);
+  \etat[f_#2] (f#2) ($ (i#2) + (1.5,0) + (#1) + (#1)$);
+  \node (lbl#2) at ($ (i#2) + (0.75,0) + (#1)$) {$e_{#2}$}% ;
+  % \draw[thick,>=latex,out=30,in=150] (i#2) to (f#2);
+  % \draw[thick,>=latex,out=-30,in=-150] (i#2) to (f#2)
+}
+
+\DeclareDocumentCommand\clbox{ O{.25} r() O{.25} r() }{
+  \draw  ($(#2)-(.25,#1)$) rectangle ($(#4)+(.25,#3)$)
+}
+
+\DeclareDocumentCommand\rect{ O{.5} r() r() O{.5} r() r()}{
+  \draw  ($(#2-|#3)-(.25,#1)$) rectangle ($(#5-|#6)+(.25,#4)$)
+}
+
+\newcommand\port[4]{   
+  \node[portnode] (#3) at ($(#4)+(#1)$){$#2$};
+  \draw[portarc]  (#3) to (#4)
+}
+\DeclareDocumentCommand\iport{ O{0} r() o r() o }
+{
+  \IfNoValueTF{#5}{
+    \IfNoValueTF{#3}
+    {\port{-.6,#1}{#2}{p#2i}{#4}}
+    {\port{-.6,#1}{#2}{#3}{#4}}
+  }{
+    \IfNoValueTF{#3}
+    {\node[portnode] (p#2i) at ($(#5|-#4)+(-.6,#1)$){$#2$};
+      \draw[portarc]  (p#2i) to (#4)
+    }
+    {\node[portnode] (#3) at ($(#5|-#4)+(-.6,#1)$){$#2$};
+      \draw[portarc]  (#3) to (#4)
+    }
+    
+  }
+}
+\DeclareDocumentCommand\oport{ O{0} r() o r() o }
+{
+  \IfNoValueTF{#5}{
+    \IfNoValueTF{#3}
+    {\port{.6,#1}{#2}{p#2o}{#4}}
+    {\port{.6,#1}{#2}{#3}{#4}}}{
+    \IfNoValueTF{#3}
+    {\node[portnode] (p#2o) at ($(#5|-#4)+(.6,#1)$){$#2$};
+      \draw[portarc]  (p#2o) to (#4)
+    }
+    {\node[portnode] (#3) at ($(#5|-#4)+(.6,#1)$){$#2$};
+      \draw[portarc]  (#3) to (#4)
+    }
+    
+  }
+}
+% \DeclareDocumentCommand\hdist{ r() r() }{
+%   ($(#1|-#2)!.5!(#2)-(#1|-#2)$)
+% }
+% \DeclareDocumentCommand\vdist{ r() r() }{
+%   ($(#1|-#2)!.5!(#2)-(#2)$)
+% }
+\newcommand\hdist[2]{
+  ($(#2)-(#1|-#2)$)
+}
+\newcommand\vdist[2]{
+  ($(#1)-(#1|-#2)$)
+}
+
+\newcommand\sumtm{\cup}
+
+
+\newcommand\Loop{\circlearrowright}
+
+\newcommand\reduces\rightsquigarrow
+\newcommand\reloc[2]{{\mathrm r}^{#1}(#2)}
+
+\newcommand\epsilons{\Rightarrow}
+% \newcommand\epsilonsa[1][a]{\Rightarrow^{#1}}
+\newcommand\epsilonsa[1][a]{\stackrel{#1}\Rightarrow}
+\newcommand\singlea[1][a]{\stackrel{#1}\rightarrow}
+\newcommand\topweak{\rightarrow^*}
+\newcommand\topstrict{\rightarrow^+}
+
+% from MFCS18 paper
+\newcommand\para\cap
+\newcommand\mdot{{\cdot}}%unspaced dot
+\newcommand\sdot{}%silent dot
+\newcommand\vertex[3][vert]{\node[#1] (#2) at (#3) {}}
+\newcommand\edgee[4][]{\draw[arc] (#2) to[#1] node[auto]{$#4$} (#3)}
+\newcommand{\nlabel}[3][.25]{\node at ($(#2)+(0,#1)$){$#3$}}
+\tikzstyle{vert}=[thick,draw,circle,fill=gray!20,inner sep=1.5]
+\tikzstyle{vertbb}=[thick,draw,rectangle,fill=blue!80,inner sep=1.5]
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "main"
+%%% End:
+\newcommand\crochet[1]{\llbracket #1 \rrbracket}
+\newcommand\RRA{\mathsf{RRA}}
+\newcommand\rel{\mathsf{Rel}}
+\newcommand\MSO{\mathsf{MSO}}
+\newcommand\CMSO{\mathsf{CMSO}}
+\newcommand\CMSOd{\mathsf{CMSO}^d}
+\newcommand\CMSOp{\mathsf{CMSO}^p}
+\newcommand\CMSOg{\mathsf{CMSO}^g}
+\newcommand\CMSOT{\mathsf{CMSO}^3}
+\newcommand\ECMSOT{\exists\mathsf{CMSO}^3}
+\xdefinecolor{darkgreen}{RGB}{130, 200, 70}
