@@ -13,9 +13,9 @@
    version="1.1"
    id="svg26515"
    xml:space="preserve"
-   width="75.060303"
-   height="24.423719"
-   viewBox="0 0 75.060302 24.423719"
+   width="66.734917"
+   height="13.584443"
+   viewBox="0 0 66.734916 13.584443"
    sodipodi:docname="dom.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"><sodipodi:namedview
      pagecolor="#ffffff"
@@ -30,9 +30,9 @@
      inkscape:window-height="1025"
      id="namedview26517"
      showgrid="false"
-     inkscape:zoom="3.3638598"
-     inkscape:cx="51.338623"
-     inkscape:cy="29.033008"
+     inkscape:zoom="4.0139011"
+     inkscape:cx="8.1040293"
+     inkscape:cy="-4.2531671"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -41,7 +41,13 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" /><metadata
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true"><sodipodi:guide
+       position="70.328742,3.7614799"
+       orientation="0,1"
+       id="guide1659"
+       inkscape:locked="false" /></sodipodi:namedview><metadata
      id="metadata26521"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
@@ -79,7 +85,7 @@
      id="g26523"
      inkscape:groupmode="layer"
      inkscape:label="0-main"
-     transform="matrix(1.3333333,0,0,-1.3333333,-1133.8863,449.98083)"><text
+     transform="matrix(1.3333333,0,0,-1.3333333,-1158.976,479.97509)"><text
    transform="matrix(1,0,0,-1,90.709,752.662)"
    style="font-variant:normal;font-weight:bold;font-size:17.2154007px;font-family:LMSans10;-inkscape-font-specification:LMSans10-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
    id="text26527"><tspan
@@ -87,6 +93,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan26525">Regularexpressionsfor</tspan></text>
+
 
 
 <text
@@ -98,6 +105,7 @@
      id="tspan26529">K</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,293.898,750.079)"
    style="font-variant:normal;font-weight:bold;font-size:11.9552002px;font-family:LMRoman12;-inkscape-font-specification:LMRoman12-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -105,6 +113,7 @@
      x="0"
      y="0"
      id="tspan26533">4</tspan></text>
+
 
 
 <text
@@ -117,6 +126,7 @@
      id="tspan26537">-freegraphlanguages</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,78.1,752.662)"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -124,6 +134,7 @@
      x="0"
      y="0"
      id="tspan26541">1</tspan></text>
+
 
 
 <text
@@ -136,6 +147,7 @@
      id="tspan26545">AminaDoumane</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,78.1,730.181)"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -143,6 +155,7 @@
      x="0"
      y="0"
      id="tspan26549">2</tspan></text>
+
 
 
 <text
@@ -155,6 +168,7 @@
      id="tspan26553">CNRS,ENSLyon</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,78.1,718.724)"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -162,6 +176,7 @@
      x="0"
      y="0"
      id="tspan26557">3</tspan></text>
+
 
 
 <text
@@ -174,6 +189,7 @@
      id="tspan26561">amina.doumane@ens-lyon.fr</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,78.1,706.769)"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -181,6 +197,7 @@
      x="0"
      y="0"
      id="tspan26565">4</tspan></text>
+
 
 
 <path
@@ -201,6 +218,7 @@
      id="tspan26577">Abstract</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,78.1,685.449)"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -208,6 +226,7 @@
      x="0"
      y="0"
      id="tspan26581">5</tspan></text>
+
 
 
 <text
@@ -220,6 +239,7 @@
      id="tspan26585">2012ACMSubjectClassifcation</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,230.673,660.901)"
    style="font-variant:normal;font-weight:normal;font-size:8.96640015px;font-family:LMRoman9;-inkscape-font-specification:LMRoman9-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -230,6 +250,7 @@
      id="tspan26589">Mathematicsofcomputing</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,341.823,660.901)"
    style="font-variant:normal;font-weight:normal;font-size:8.96640015px;font-family:OAMathSymbols9;-inkscape-font-specification:OAMathSymbols9;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -237,6 +258,7 @@
      x="0"
      y="0"
      id="tspan26593">!</tspan></text>
+
 
 
 <text
@@ -249,6 +271,7 @@
      id="tspan26597">Discretemathematics</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,78.1,660.901)"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -256,6 +279,7 @@
      x="0"
      y="0"
      id="tspan26601">6</tspan></text>
+
 
 
 <text
@@ -268,6 +292,7 @@
      id="tspan26605">Keywordsandphrases</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,186.359,640.577)"
    style="font-variant:normal;font-weight:normal;font-size:8.96640015px;font-family:LMRoman9;-inkscape-font-specification:LMRoman9-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -278,6 +303,7 @@
      id="tspan26609">Treewidth,MSO,Regularexpressions</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,78.1,640.577)"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -285,6 +311,7 @@
      x="0"
      y="0"
      id="tspan26613">7</tspan></text>
+
 
 
 <text
@@ -297,6 +324,7 @@
      id="tspan26617">DigitalObjectIdentifer</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,193.485,619.257)"
    style="font-variant:normal;font-weight:normal;font-size:8.96640015px;font-family:LMRoman9;-inkscape-font-specification:LMRoman9-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -307,6 +335,7 @@
      id="tspan26621">10.4230/LIPIcs.ICALP.2021.49</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,78.1,619.257)"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -314,6 +343,7 @@
      x="0"
      y="0"
      id="tspan26625">8</tspan></text>
+
 
 
 <path
@@ -333,6 +363,7 @@
      id="tspan26635">Introduction</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,78.1,590.586)"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -340,6 +371,7 @@
      x="0"
      y="0"
      id="tspan26639">9</tspan></text>
+
 
 
 <path
@@ -359,6 +391,7 @@
      id="tspan26649">Preliminaries</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,75.453,565.444)"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -367,6 +400,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan26653">10</tspan></text>
+
 
 
 <text
@@ -379,6 +413,7 @@
      id="tspan26657">Let</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,108.844,542.627)"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -388,6 +423,7 @@
      id="tspan26661">A</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,116.316,541.133)"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -395,6 +431,7 @@
      x="0"
      y="0"
      id="tspan26665">1</tspan></text>
+
 
 
 <text
@@ -407,6 +444,7 @@
      id="tspan26669">and</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,143.79,542.627)"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -416,6 +454,7 @@
      id="tspan26673">A</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,151.262,541.133)"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -423,6 +462,7 @@
      x="0"
      y="0"
      id="tspan26677">2</tspan></text>
+
 
 
 <text
@@ -435,6 +475,7 @@
      id="tspan26681">betwodisjointsetsof</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-0.98039216,259.361,542.627)"
    style="font-style:italic;font-variant:normal;font-size:10.16185188px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -443,6 +484,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan26685">unary</tspan></text>
+
 
 
 <text
@@ -455,6 +497,7 @@
      id="tspan26689">and</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-0.98039216,308.52,542.627)"
    style="font-style:italic;font-variant:normal;font-size:10.16185188px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -463,6 +506,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan26693">binary</tspan></text>
+
 
 
 <text
@@ -475,6 +519,7 @@
      id="tspan26697">lettersrespectively.Allalongthe</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,75.453,542.627)"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -483,6 +528,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan26701">11</tspan></text>
+
 
 
 <text
@@ -495,6 +541,7 @@
      id="tspan26705">paper,weworkwiththealphabet</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,241.587,515.065)"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -502,6 +549,7 @@
      x="0"
      y="0"
      id="tspan26709">A</tspan></text>
+
 
 
 <text
@@ -513,6 +561,7 @@
      id="tspan26713">=</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,262.343,515.065)"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -520,6 +569,7 @@
      x="0"
      y="0"
      id="tspan26717">A</tspan></text>
+
 
 
 <text
@@ -531,6 +581,7 @@
      id="tspan26721">1</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,276.498,515.065)"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathSymbols10;-inkscape-font-specification:LMMathSymbols10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -538,6 +589,7 @@
      x="0"
      y="0"
      id="tspan26725">∪</tspan></text>
+
 
 
 <text
@@ -549,6 +601,7 @@
      id="tspan26729">A</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,292.825,513.571)"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -558,6 +611,7 @@
      id="tspan26733">2</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,297.294,515.065)"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -565,6 +619,7 @@
      x="0"
      y="0"
      id="tspan26737">.</tspan></text>
+
 
 
 <g
@@ -658,6 +713,7 @@
      x="0">G</tspan></text>
 
 
+
 <g
    transform="translate(329.828,521.066)"
    id="g26833" /></g></g><g
@@ -673,6 +729,7 @@
      x="0 2.6465647">12</tspan></text>
 
 
+
 <text
    id="text26845"
    style="font-variant:normal;font-weight:bold;font-size:11.9552002px;font-family:LMSans10;-inkscape-font-specification:LMSans10-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -681,6 +738,7 @@
      sodipodi:role="line"
      y="0"
      x="0 6.5753598 10.227674 29.953754 38.720501 43.170227 49.446709 56.15477 62.862831 72.291901 78.867256 87.261002 92.0933 96.543022 102.65333 113.15118 122.05183 125.10638 131.81445 136.64674 147.74236">2.1Graphsoftreewidth2</tspan></text>
+
 
 
 <text
@@ -693,6 +751,7 @@
      x="0 2.6465647">13</tspan></text>
 
 
+
 <text
    id="text26853"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:MSAM10;-inkscape-font-specification:MSAM10;writing-mode:lr-tb;fill:#4f4f54;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -700,6 +759,7 @@
      id="tspan26851"
      y="0"
      x="0">I</tspan></text>
+
 
 
 <text
@@ -712,6 +772,7 @@
      x="0 7.9152856 13.007171 18.846251 24.436266 26.98171 31.008593 33.554035 39.033466 47.681999">Defnition1</tspan></text>
 
 
+
 <text
    id="text26861"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMSans10;-inkscape-font-specification:LMSans10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -720,6 +781,7 @@
      sodipodi:role="line"
      y="0"
      x="0 3.8744552 10.516521 13.920741 18.708767 23.856441 29.004118 32.822781">(Graphs)</tspan></text>
+
 
 
 <text
@@ -731,6 +793,7 @@
      x="0">.</tspan></text>
 
 
+
 <text
    id="text26869"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -738,6 +801,7 @@
      id="tspan26867"
      y="0"
      x="0">A</tspan></text>
+
 
 
 <text
@@ -750,6 +814,7 @@
      x="0 4.9812999 8.8836508 13.86495 19.400171">graph</tspan></text>
 
 
+
 <text
    id="text26877"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -760,6 +825,7 @@
      x="0 3.0555294 10.20768 18.378008 21.687584 27.034512 32.126396 34.671841">isatuple</tspan></text>
 
 
+
 <text
    id="text26881"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -767,6 +833,7 @@
      id="tspan26879"
      y="0"
      x="0">(</tspan></text>
+
 
 
 <text
@@ -779,6 +846,7 @@
      x="0 6.3690901 10.790492">V,E</tspan></text>
 
 
+
 <text
    id="text26889"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -786,6 +854,7 @@
      id="tspan26887"
      y="0"
      x="0">1</tspan></text>
+
 
 
 <text
@@ -798,6 +867,7 @@
      x="0 4.4313645">,E</tspan></text>
 
 
+
 <text
    id="text26897"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -805,6 +875,7 @@
      id="tspan26895"
      y="0"
      x="0">2</tspan></text>
+
 
 
 <text
@@ -817,6 +888,7 @@
      x="0 4.4313645 9.1018314 13.523233 17.120728 21.552094 24.724184 29.145586 32.671349 37.102715">,s,t,l,ι,o</tspan></text>
 
 
+
 <text
    id="text26905"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -824,6 +896,7 @@
      id="tspan26903"
      y="0"
      x="0">)</tspan></text>
+
 
 
 <text
@@ -836,6 +909,7 @@
      x="0 6.6201477 11.712032 16.294828 19.978003">where</tspan></text>
 
 
+
 <text
    id="text26913"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -843,6 +917,7 @@
      id="tspan26911"
      y="0"
      x="0">V</tspan></text>
+
 
 
 <text
@@ -855,6 +930,7 @@
      x="0 3.0555294 10.20768 18.368046 22.441753 27.024549 33.412567 38.504452">isasetof</tspan></text>
 
 
+
 <text
    id="text26921"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -865,6 +941,7 @@
      x="0 4.9793077 9.4076834 13.310034 17.184488 19.952099 24.380474 28.798887">vertices</tspan></text>
 
 
+
 <text
    id="text26925"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -872,6 +949,7 @@
      id="tspan26923"
      y="0"
      x="0">,</tspan></text>
+
 
 
 <text
@@ -884,6 +962,7 @@
      x="0 2.6465647">14</tspan></text>
 
 
+
 <text
    id="text26933"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -893,6 +972,7 @@
      x="0">E</tspan></text>
 
 
+
 <text
    id="text26937"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -900,6 +980,7 @@
      id="tspan26935"
      y="0"
      x="0">1</tspan></text>
+
 
 
 <text
@@ -912,6 +993,7 @@
      x="0 5.1937227 10.906715">and</tspan></text>
 
 
+
 <text
    id="text26945"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -921,6 +1003,7 @@
      x="0">E</tspan></text>
 
 
+
 <text
    id="text26949"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -928,6 +1011,7 @@
      id="tspan26947"
      y="0"
      x="0">2</tspan></text>
+
 
 
 <text
@@ -940,6 +1024,7 @@
      x="0 5.1937227 8.9708834 17.384897 20.760664 27.513214 36.446499 41.640221 44.756863 48.912041 52.028683 57.222404 60.339046 66.05204 73.167366 77.322548 81.997002 85.372765 93.267509 98.461235">aretwodisjointsetsof</tspan></text>
 
 
+
 <text
    id="text26957"
    style="font-variant:normal;font-weight:normal;font-size:10.16185188px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -948,6 +1033,7 @@
      sodipodi:role="line"
      y="0"
      x="0 5.645925 11.29185 16.372776 20.353174">unary</tspan></text>
+
 
 
 <text
@@ -960,6 +1046,7 @@
      x="0 5.1937227 10.906715">and</tspan></text>
 
 
+
 <text
    id="text26965"
    style="font-variant:normal;font-weight:normal;font-size:10.16185188px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -968,6 +1055,7 @@
      sodipodi:role="line"
      y="0"
      x="0 5.645925 8.4688873 14.114813 19.195738 23.176136 32.055561 36.572506 42.208267 47.289196 51.806137">binaryedges</tspan></text>
+
 
 
 <text
@@ -980,6 +1068,7 @@
      x="0 3.7771604 8.4516125 12.606793 17.292423 21.458782 26.133234 29.509003 32.625641 37.300095 41.974545 44.5709 49.505493">respectively,</tspan></text>
 
 
+
 <text
    id="text26973"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -987,6 +1076,7 @@
      id="tspan26971"
      y="0"
      x="0">s</tspan></text>
+
 
 
 <text
@@ -998,6 +1088,7 @@
      x="0">:</tspan></text>
 
 
+
 <text
    id="text26981"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1005,6 +1096,7 @@
      id="tspan26979"
      y="0"
      x="0">E</tspan></text>
+
 
 
 <text
@@ -1016,6 +1108,7 @@
      x="0">1</tspan></text>
 
 
+
 <text
    id="text26989"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathSymbols10;-inkscape-font-specification:LMMathSymbols10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1023,6 +1116,7 @@
      id="tspan26987"
      y="0"
      x="0">]</tspan></text>
+
 
 
 <text
@@ -1034,6 +1128,7 @@
      x="0">E</tspan></text>
 
 
+
 <text
    id="text26997"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1041,6 +1136,7 @@
      id="tspan26995"
      y="0"
      x="0">2</tspan></text>
+
 
 
 <text
@@ -1052,6 +1148,7 @@
      x="0">!</tspan></text>
 
 
+
 <text
    id="text27005"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1059,6 +1156,7 @@
      id="tspan27003"
      y="0"
      x="0">V</tspan></text>
+
 
 
 <text
@@ -1071,6 +1169,7 @@
      x="0 2.6465647">15</tspan></text>
 
 
+
 <text
    id="text27013"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1079,6 +1178,7 @@
      sodipodi:role="line"
      y="0"
      x="0 5.0918851 10.692859">and</tspan></text>
+
 
 
 <text
@@ -1090,6 +1190,7 @@
      x="0">t</tspan></text>
 
 
+
 <text
    id="text27021"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1097,6 +1198,7 @@
      id="tspan27019"
      y="0"
      x="0">:</tspan></text>
+
 
 
 <text
@@ -1108,6 +1210,7 @@
      x="0">E</tspan></text>
 
 
+
 <text
    id="text27029"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1115,6 +1218,7 @@
      id="tspan27027"
      y="0"
      x="0">2</tspan></text>
+
 
 
 <text
@@ -1126,6 +1230,7 @@
      x="0">!</tspan></text>
 
 
+
 <text
    id="text27037"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1133,6 +1238,7 @@
      id="tspan27035"
      y="0"
      x="0">V</tspan></text>
+
 
 
 <text
@@ -1145,6 +1251,7 @@
      x="0 5.0918851 8.7750578 16.884615 19.940144 25.287071 30.888044 35.47084 38.780418 41.835945 46.92783 52.528805 60.129272 64.20298 68.77681 72.841553 77.424347 80.479874 83.535408 88.373245 91.428772 97.029747 105.13931 108.44888 113.54076 121.66029 125.73399 130.82588 136.17281 139.84601 143.91075 152.03027 157.12216 162.72313 171.34178 174.65135 179.74324 187.8528 191.16237 196.25426 199.93742 204.52022 209.10301 215.93936 221.03123 227.62349 231.68823 236.78012 241.36292 249.98155 254.0463 259.13818 263.72098">arefunctionsspecifyingthesourceandthetargetofeachedge</tspan></text>
 
 
+
 <text
    id="text27045"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1152,6 +1259,7 @@
      id="tspan27043"
      y="0"
      x="0">1</tspan></text>
+
 
 
 <text
@@ -1163,6 +1271,7 @@
      x="0">,</tspan></text>
 
 
+
 <text
    id="text27053"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1170,6 +1279,7 @@
      id="tspan27051"
      y="0"
      x="0">l</tspan></text>
+
 
 
 <text
@@ -1181,6 +1291,7 @@
      x="0">1</tspan></text>
 
 
+
 <text
    id="text27061"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1188,6 +1299,7 @@
      id="tspan27059"
      y="0"
      x="0">:</tspan></text>
+
 
 
 <text
@@ -1199,6 +1311,7 @@
      x="0">E</tspan></text>
 
 
+
 <text
    id="text27069"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1206,6 +1319,7 @@
      id="tspan27067"
      y="0"
      x="0">1</tspan></text>
+
 
 
 <text
@@ -1217,6 +1331,7 @@
      x="0">!</tspan></text>
 
 
+
 <text
    id="text27077"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1226,6 +1341,7 @@
      x="0">A</tspan></text>
 
 
+
 <text
    id="text27081"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1233,6 +1349,7 @@
      id="tspan27079"
      y="0"
      x="0">1</tspan></text>
+
 
 
 <text
@@ -1245,6 +1362,7 @@
      x="0 2.6465647">16</tspan></text>
 
 
+
 <text
    id="text27089"
    style="font-style:italic;font-variant:normal;font-size:10.13196373px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1253,6 +1371,7 @@
      sodipodi:role="line"
      y="0"
      x="0 5.1784468 10.874638">and</tspan></text>
+
 
 
 <text
@@ -1264,6 +1383,7 @@
      x="0">l</tspan></text>
 
 
+
 <text
    id="text27097"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1271,6 +1391,7 @@
      id="tspan27095"
      y="0"
      x="0">2</tspan></text>
+
 
 
 <text
@@ -1282,6 +1403,7 @@
      x="0">:</tspan></text>
 
 
+
 <text
    id="text27105"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1289,6 +1411,7 @@
      id="tspan27103"
      y="0"
      x="0">E</tspan></text>
+
 
 
 <text
@@ -1300,6 +1423,7 @@
      x="0">2</tspan></text>
 
 
+
 <text
    id="text27113"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:OAMathSymbols10;-inkscape-font-specification:OAMathSymbols10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1307,6 +1431,7 @@
      id="tspan27111"
      y="0"
      x="0">!</tspan></text>
+
 
 
 <text
@@ -1318,6 +1443,7 @@
      x="0">A</tspan></text>
 
 
+
 <text
    id="text27121"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1325,6 +1451,7 @@
      id="tspan27119"
      y="0"
      x="0">2</tspan></text>
+
 
 
 <text
@@ -1337,6 +1464,7 @@
      x="0 5.1784468 8.9444981 17.171654 20.537491 25.715939 33.943092 37.050568 42.488392 48.184582 52.845287 56.211124 59.318596 64.497047 70.193237 77.902649 81.010117 86.706306 91.884758 94.992233 99.146339 104.32478 107.69062 110.7981 116.49429 124.72144 128.08728 133.26573 141.49287 144.0816 149.26004 153.41415 158.07486 164.23003 169.40846 176.0824 180.2365 185.41495 190.07565 198.82054 202.97466 208.15309 212.8138 217.4745 224.14844 229.32687 235.02307 243.76796 247.1338 253.8665 262.61139 267.78983 270.89731 275.04028 278.4061 281.51358 287.20978 291.87048 297.30832 300.41577 304.55875 309.73718 313.8913">arethefunctionsindicatingthelabelofeachedge,andtwodistinguished</tspan></text>
 
 
+
 <text
    id="text27129"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1345,6 +1473,7 @@
      sodipodi:role="line"
      y="0"
      x="0 2.6465647">17</tspan></text>
+
 
 
 <text
@@ -1357,6 +1486,7 @@
      x="0 4.6423721 9.2847443 13.540589 16.893188 19.988441 24.126207 28.768579 36.45776 40.585434 45.743515 49.08905 51.667587 55.805351 64.525948 67.878548 73.036629 81.241516 85.369194 90.527267 93.872803 96.45134 100.5891 109.3097 112.6623 117.82038">verticescalledthecalledthe</tspan></text>
 
 
+
 <text
    id="text27137"
    style="font-variant:normal;font-weight:normal;font-size:10.09211349px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1365,6 +1495,7 @@
      sodipodi:role="line"
      y="0"
      x="0 2.8035891 8.1281881 12.053012 16.538956 20.492037 23.576187 28.622244 33.108189 40.91444 45.968571 50.454514 54.407597 58.332417 61.136005 65.621948 70.107895">interfacevertices</tspan></text>
+
 
 
 <text
@@ -1376,6 +1507,7 @@
      x="0">:</tspan></text>
 
 
+
 <text
    id="text27145"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1383,6 +1515,7 @@
      id="tspan27143"
      y="0"
      x="0">ι</tspan></text>
+
 
 
 <text
@@ -1395,6 +1528,7 @@
      x="0 3.3526001 8.5106792">the</tspan></text>
 
 
+
 <text
    id="text27153"
    style="font-variant:normal;font-weight:normal;font-size:10.09211349px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1403,6 +1537,7 @@
      sodipodi:role="line"
      y="0"
      x="0 2.8035891 8.4107676 14.017946 19.625124">input</tspan></text>
+
 
 
 <text
@@ -1415,6 +1550,7 @@
      x="0 5.1580791 10.831865">and</tspan></text>
 
 
+
 <text
    id="text27161"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1422,6 +1558,7 @@
      id="tspan27159"
      y="0"
      x="0">o</tspan></text>
+
 
 
 <text
@@ -1434,6 +1571,7 @@
      x="0 5.0460567 10.653235 14.578058 20.185236 25.792416">output</tspan></text>
 
 
+
 <text
    id="text27169"
    style="font-style:italic;font-variant:normal;font-size:10.09211349px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1444,6 +1582,7 @@
      x="0 7.6770711 14.898988 20.057068 28.261955 32.915428 38.073509 41.168758">.Thepair</tspan></text>
 
 
+
 <text
    id="text27173"
    style="font-variant:normal;font-weight:normal;font-size:10.09211349px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1451,6 +1590,7 @@
      id="tspan27171"
      y="0"
      x="0">(</tspan></text>
+
 
 
 <text
@@ -1463,6 +1603,7 @@
      x="0 3.5257642 7.9571285">ι,o</tspan></text>
 
 
+
 <text
    id="text27181"
    style="font-variant:normal;font-weight:normal;font-size:10.09211349px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1470,6 +1611,7 @@
      id="tspan27179"
      y="0"
      x="0">)</tspan></text>
+
 
 
 <text
@@ -1482,6 +1624,7 @@
      x="0 3.0952513">is</tspan></text>
 
 
+
 <text
    id="text27189"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1490,6 +1633,7 @@
      sodipodi:role="line"
      y="0"
      x="0 2.6465647">18</tspan></text>
+
 
 
 <text
@@ -1502,6 +1646,7 @@
      x="0 4.1663594 9.3600817 12.718574 15.314927 19.481287 28.556837 31.932604 37.126328">calledthe</tspan></text>
 
 
+
 <text
    id="text27197"
    style="font-variant:normal;font-weight:normal;font-size:10.16185188px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1510,6 +1655,7 @@
      sodipodi:role="line"
      y="0"
      x="0 2.8229625 8.1945171 12.146461 16.663404 20.643803 23.749264 28.830191 33.347134">interface</tspan></text>
+
 
 
 <text
@@ -1522,6 +1668,7 @@
      x="0 5.1937227">of</tspan></text>
 
 
+
 <text
    id="text27205"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1529,6 +1676,7 @@
      id="tspan27203"
      y="0"
      x="0">G</tspan></text>
+
 
 
 <text
@@ -1541,6 +1689,7 @@
      x="0 8.6446877 15.812858 19.181511 25.659693 29.03546 34.229183 42.775299 47.449753 52.124203 56.409458 59.785225 62.901863 67.068222 71.742676 79.779686 84.973404">.Alltheverticesof</tspan></text>
 
 
+
 <text
    id="text27213"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1548,6 +1697,7 @@
      id="tspan27211"
      y="0"
      x="0">G</tspan></text>
+
 
 
 <text
@@ -1560,6 +1710,7 @@
      x="0 6.7525506 11.946273 15.062913 19.737366 28.812916 34.006638 37.783798 46.329914 52.042908 57.236629 64.494225 67.610863 73.32386 76.699623 81.374077 85.659332 88.77597 93.969696 98.136055 106.69233 111.36678 116.04124 120.32649 123.70226 126.81889 130.98526 135.65971 143.69672 148.89044 152.65744 161.21371 165.38008 170.57379 173.9323 176.52864 180.69501">whicharenotinterfaceverticesarecalled</tspan></text>
 
 
+
 <text
    id="text27221"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1568,6 +1719,7 @@
      sodipodi:role="line"
      y="0"
      x="0 2.6465647">19</tspan></text>
+
 
 
 <text
@@ -1580,6 +1732,7 @@
      x="0 2.7676103 8.3028307 13.838052 18.266428 25.486322 30.465631 34.894005 38.796356 42.670811 45.438423 49.866798 54.295174">innervertices</tspan></text>
 
 
+
 <text
    id="text27229"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1590,6 +1743,7 @@
      x="0 7.6383252 16.822845 24.972254 29.045959 34.137844 42.542294 45.851871 50.943756 56.035641 62.911827 68.003708 77.161331 81.236038 86.327919 90.910721 99.060127 102.11565 109.75597 114.84785">.Wesaythatanedgeisan</tspan></text>
 
 
+
 <text
    id="text27233"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1597,6 +1751,7 @@
      id="tspan27231"
      y="0"
      x="0">a</tspan></text>
+
 
 
 <text
@@ -1609,6 +1764,7 @@
      x="0 3.5646183 7.6393218 12.731207 17.314003 25.463409 28.518938 35.131115 38.186646 45.062832 48.118362 55.758678 58.304123 63.396008 67.470711 72.053505 74.598953 78.673653 87.332153 91.914948 100.30943 103.61901 108.71089 116.8603 119.40575 123.98854 127.29812 130.6077 135.19049">-edgeifitislabeledbytheletter</tspan></text>
 
 
+
 <text
    id="text27241"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1618,6 +1774,7 @@
      x="0">a</tspan></text>
 
 
+
 <text
    id="text27245"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1625,6 +1782,7 @@
      id="tspan27243"
      y="0"
      x="0">.</tspan></text>
+
 
 
 <text
@@ -1637,6 +1795,7 @@
      x="0 2.6465647">20</tspan></text>
 
 
+
 <text
    id="text27253"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1645,6 +1804,7 @@
      sodipodi:role="line"
      y="0"
      x="0 10.23956 15.774781 20.756081 27.987932 34.903969 42.689739 47.118118 52.099415 54.867027 60.992035 66.527252 70.955627 74.857979 82.643753 90.982445 95.963745 99.866096 104.8474 110.38262 119.27524 122.04285 129.33049 136.52548 142.0607 147.04199 154.27385 157.04146 164.3291 169.86432 173.79457 179.32979 184.3111 187.0787 189.84631 198.46196 202.89034 207.87164 210.63925 213.40686 217.83524 226.72786 235.06654 240.04785 243.9502 248.9315 254.46672 263.35934 270.55432 273.32193 277.19638 286.08902 288.85663 294.11288 297.98734 302.41571 306.31808 309.36264 314.34393 318.77231 326.55807 331.5394 338.79913 344.61331 349.5946 352.36221 357.60852 361.48297 365.91135 374.80399 379.78528 383.68762 388.66891 394.20413 399.73935">Whatwecallhereagraphiswhatisusuallycalledagraphwithinterfaceorpointedgraph.</tspan></text>
+
 
 
 <text
@@ -1657,6 +1817,7 @@
      x="0 2.6465647">21</tspan></text>
 
 
+
 <text
    id="text27261"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1665,6 +1826,7 @@
      sodipodi:role="line"
      y="0"
      x="0 9.3927393 16.949371 25.251205 30.232506 35.767727 43.33432 47.208775 52.743996 55.511608 62.57011 66.719536 72.254753 77.236053 80.003662 84.432037 91.98867 95.863129 103.98264 106.75025 109.51787 114.49917 119.75543 123.62989 128.04829 136.72174 142.25696 147.23827 151.11272 156.09401 159.96848 162.73608 167.71738 173.25261 180.45357 189.84631 197.40294 202.93816 207.36653 212.90176 215.66937 220.09775 227.11041 232.09172 235.99406 240.97537 246.51059 252.04581 259.10431 264.0856 271.15408 274.19864 279.17996 281.94757 284.71518 289.40756 296.60254 300.53278 306.48843 313.68341 316.45102 320.3255 328.98895 334.52417 340.05942 342.82703 347.80832 353.6225 358.05087 360.81848 365.24686 373.92029 376.6879 382.22311 387.20441 392.18573 394.95334 400.48856">Wemadethischoicetolightennotation.Wedepictgraphsasfollows,withunlabeledingoing</tspan></text>
+
 
 
 <text
@@ -1677,6 +1839,7 @@
      x="0 2.6465647">22</tspan></text>
 
 
+
 <text
    id="text27269"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1687,6 +1850,7 @@
      x="0 4.9812999 10.516521 19.369287 24.350588 29.885807 33.760262 38.741562 43.722862 46.490475 52.025692 60.324539 65.30584 69.208191 73.110542 77.822853 85.017838 92.265633 96.140083 104.43893 109.97415 114.40253 119.93775 124.91905 128.7935 136.53943 140.41388 145.9491 153.70499 156.4726 162.00781 167.53308 173.0683 180.27026 185.25156 190.78677 199.63954 203.51401 209.04922 216.79514 221.77644 227.31166 231.18611 236.72134 242.25656 246.13101 252.21617 256.11853 260.54691 264.47714 270.29132 274.7197 279.14807 283.02252 285.79013 290.76944 295.19781 297.96542 302.39679">andoutgoingarrowstodenotetheinputandtheoutput,respectively.</tspan></text>
 
 
+
 <text
    id="text27273"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1695,6 +1859,7 @@
      sodipodi:role="line"
      y="0"
      x="0 2.6465647">23</tspan></text>
+
 
 
 <g
@@ -2011,6 +2176,7 @@
      x="0 2.6465647">24</tspan></text>
 
 
+
 <text
    id="text27483"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2021,6 +2187,7 @@
      x="0 9.4027023 17.188475 21.108757 25.811104 34.426762 38.301216 43.836437 48.817738">Wesaythat</tspan></text>
 
 
+
 <text
    id="text27487"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2028,6 +2195,7 @@
      id="tspan27485"
      y="0"
      x="0">H</tspan></text>
+
 
 
 <text
@@ -2040,6 +2208,7 @@
      x="0 2.7676103 10.055252">isa</tspan></text>
 
 
+
 <text
    id="text27495"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2048,6 +2217,7 @@
      sodipodi:role="line"
      y="0"
      x="0 4.0737071 9.4206343 13.485375 18.068171 21.761307 26.853191 31.945076">subgraph</tspan></text>
+
 
 
 <text
@@ -2060,6 +2230,7 @@
      x="0 4.9812999">of</tspan></text>
 
 
+
 <text
    id="text27503"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2067,6 +2238,7 @@
      id="tspan27501"
      y="0"
      x="0">K</tspan></text>
+
 
 
 <text
@@ -2079,6 +2251,7 @@
      x="0 2.7676103 9.1695766 13.044032 18.579252 26.355062 30.783438 36.318657 41.299957 45.728333 53.015976 57.997276 63.532497 72.415154 77.394455 81.82283 85.725182 89.59964 92.367249 96.795624 101.224 108.51164 113.49294">iftheedgesandverticesof</tspan></text>
 
 
+
 <text
    id="text27511"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2086,6 +2259,7 @@
      id="tspan27509"
      y="0"
      x="0">H</tspan></text>
+
 
 
 <text
@@ -2098,6 +2272,7 @@
      x="0 4.9812999 8.8836508 16.669422 24.998156 28.928402 34.463623 39.998844 43.929089 48.357464 55.589317 60.570614 66.962616 70.837074 76.372292 81.353592 85.283844 93.069611 98.050911">areasubsetofthoseof</tspan></text>
 
 
+
 <text
    id="text27519"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2108,6 +2283,7 @@
      x="0 2.6465647">25</tspan></text>
 
 
+
 <text
    id="text27523"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2115,6 +2291,7 @@
      id="tspan27521"
      y="0"
      x="0">K</tspan></text>
+
 
 
 <text
@@ -2127,6 +2304,7 @@
      x="0 6.1548944 11.136194 16.671415 25.59392 29.468374 35.003593 42.819256 45.586864 50.833172 54.707626 59.136002 63.038353 66.082924 71.064224 75.492599 83.308258 88.287567 92.715942 96.618294 100.49274 103.26035 107.68874 112.11711 119.42467 124.40598">,andtheinterfaceverticesof</tspan></text>
 
 
+
 <text
    id="text27531"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2134,6 +2312,7 @@
      id="tspan27529"
      y="0"
      x="0">K</tspan></text>
+
 
 
 <text
@@ -2146,6 +2325,7 @@
      x="0 4.9812999 8.8836508">are</tspan></text>
 
 
+
 <text
    id="text27539"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2154,6 +2334,7 @@
      sodipodi:role="line"
      y="0"
      x="0 5.5352206 10.516521 17.708521 20.476131 26.011353 31.546574 35.974949">notinner</tspan></text>
+
 
 
 <g
@@ -2172,6 +2353,7 @@
      x="0 4.9793077 9.4076834 13.310034 17.184488 19.952099 24.370512 28.798887 36.116417 41.097717">verticesof</tspan></text>
 
 
+
 <text
    id="text27551"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2179,6 +2361,7 @@
      id="tspan27549"
      y="0"
      x="0">H</tspan></text>
+
 
 
 <text
@@ -2191,6 +2374,7 @@
      x="0 7.2906308 18.149864 23.131165 27.033516 32.014816 37.540073 46.462578 49.230186">.Agraphis</tspan></text>
 
 
+
 <text
    id="text27559"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2199,6 +2383,7 @@
      sodipodi:role="line"
      y="0"
      x="0 4.5827961 12.73021 17.822096 21.13167">empty</tspan></text>
+
 
 
 <text
@@ -2211,6 +2396,7 @@
      x="0 2.7676103 9.1994648 11.967075 19.228815 24.764034 29.745335 37.062866 42.598083">ifithasno</tspan></text>
 
 
+
 <text
    id="text27567"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2219,6 +2405,7 @@
      sodipodi:role="line"
      y="0"
      x="0 2.6465647">26</tspan></text>
+
 
 
 <text
@@ -2231,6 +2418,7 @@
      x="0 4.4283757 9.9635963 14.944897 19.373272 23.303518 29.388674 34.369972 39.905193 48.757961 51.52557 57.897652 62.878948 65.646561 71.73172 74.499329 78.373779 85.621574 90.600883 95.029259 98.93161 102.80606 105.57367 110.00204 114.43042 121.67822 126.65952 130.56186 138.31775 141.08536 146.34163 150.21608 154.64445 158.54681 161.59138 166.57268 171.00105 178.74698 183.72629 188.15466 192.05701 195.93147 198.69908 203.12746 207.55583 211.48607">edges,andifallitsverticesareinterfacevertices.</tspan></text>
 
 
+
 <text
    id="text27575"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2241,6 +2429,7 @@
      x="0 2.6465647">27</tspan></text>
 
 
+
 <text
    id="text27579"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:MSAM10;-inkscape-font-specification:MSAM10;writing-mode:lr-tb;fill:#4f4f54;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2248,6 +2437,7 @@
      id="tspan27577"
      y="0"
      x="0">I</tspan></text>
+
 
 
 <text
@@ -2260,6 +2450,7 @@
      x="0 8.0735912 13.267314 19.223175 24.92499 27.521343 31.628765 34.225117 39.814137 49.479073">Defnition2</tspan></text>
 
 
+
 <text
    id="text27587"
    style="font-variant:normal;font-weight:normal;font-size:10.16185188px;font-family:LMSans10;-inkscape-font-specification:LMSans10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2267,6 +2458,7 @@
      id="tspan27585"
      y="0"
      x="0">(</tspan></text>
+
 
 
 <text
@@ -2279,6 +2471,7 @@
      x="0 3.318542">tw</tspan></text>
 
 
+
 <text
    id="text27595"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2286,6 +2479,7 @@
      id="tspan27593"
      y="0"
      x="0">2</tspan></text>
+
 
 
 <text
@@ -2298,6 +2492,7 @@
      x="0 5.0809259 8.5532312 13.437016 18.687645 23.938274 27.833313">graphs)</tspan></text>
 
 
+
 <text
    id="text27603"
    style="font-variant:normal;font-weight:bold;font-size:10.16185188px;font-family:LMSans10;-inkscape-font-specification:LMSans10-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2305,6 +2500,7 @@
      id="tspan27601"
      y="0"
      x="0">.</tspan></text>
+
 
 
 <text
@@ -2317,6 +2513,7 @@
      x="0 7.2718215 12.465544 18.178537 22.333719 25.450357 30.644081 35.318531 43.424641 46.800411 51.994133 60.489441 64.644623 67.761261 72.435715 78.148705 83.34243 86.718193 92.172066 95.939064">Considerthesignature</tspan></text>
 
 
+
 <text
    id="text27611"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2324,6 +2521,7 @@
      id="tspan27609"
      y="0"
      x="0">σ</tspan></text>
+
 
 
 <text
@@ -2336,6 +2534,7 @@
      x="0 4.1663594 9.3600817 15.073075 18.448843 23.642565 26.759205 32.472198 35.588837 41.30183 49.797138 53.172905 58.366631 66.861938 71.536392 74.65303 80.36602 85.559746 89.845001 98.590286 103.78401 108.46964 113.14409 116.92125 122.11497 125.49075 128.60738 133.8011 139.5141">containingthebinaryoperations</tspan></text>
 
 
+
 <text
    id="text27619"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathSymbols10;-inkscape-font-specification:LMMathSymbols10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2343,6 +2542,7 @@
      id="tspan27617"
      y="0"
      x="0">·</tspan></text>
+
 
 
 <text
@@ -2355,6 +2555,7 @@
      x="0 2.6465647">28</tspan></text>
 
 
+
 <text
    id="text27627"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2365,6 +2566,7 @@
      x="0 5.0918851 10.692859">and</tspan></text>
 
 
+
 <text
    id="text27631"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathSymbols10;-inkscape-font-specification:LMMathSymbols10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2372,6 +2574,7 @@
      id="tspan27629"
      y="0"
      x="0">k</tspan></text>
+
 
 
 <text
@@ -2384,6 +2587,7 @@
      x="0 6.6918783 10.001454 15.093339 23.312485 28.65941 34.260384 39.352268 43.553497 52.027687 57.119572 61.693401 66.276199 69.959373 75.051254 78.360832 81.416359 86.508247 92.109215">,theunaryoperations</tspan></text>
 
 
+
 <text
    id="text27639"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMMathSymbols7;-inkscape-font-specification:LMMathSymbols7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2391,6 +2595,7 @@
      id="tspan27637"
      y="0"
      x="0">◦</tspan></text>
+
 
 
 <text
@@ -2403,6 +2608,7 @@
      x="0 5.0918851 10.692859">and</tspan></text>
 
 
+
 <text
    id="text27647"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2411,6 +2617,7 @@
      sodipodi:role="line"
      y="0"
      x="0 5.0918851 10.18377">dom</tspan></text>
+
 
 
 <text
@@ -2423,6 +2630,7 @@
      x="0 6.6918783 11.783763 17.384737 26.11297 29.422546 34.514431 42.733578 48.334549 53.681477 57.004005 59.54945 64.641335 68.84256 77.31675 82.408638 86.982468 91.565262 95.248436 100.34032 103.64989 106.70542 111.79731 117.39828">,andthenullaryoperations</tspan></text>
 
 
+
 <text
    id="text27655"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2430,6 +2638,7 @@
      id="tspan27653"
      y="0"
      x="0">1</tspan></text>
+
 
 
 <text
@@ -2442,6 +2651,7 @@
      x="0 5.0918851 10.692859">and</tspan></text>
 
 
+
 <text
    id="text27663"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathSymbols10;-inkscape-font-specification:LMMathSymbols10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2449,6 +2659,7 @@
      id="tspan27661"
      y="0"
      x="0">&gt;</tspan></text>
+
 
 
 <text
@@ -2461,6 +2672,7 @@
      x="0 7.7479138 16.922472 25.141617 30.233501 34.816299 40.417271 46.018246">.Wedefne</tspan></text>
 
 
+
 <text
    id="text27671"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMSans10;-inkscape-font-specification:LMSans10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2471,6 +2683,7 @@
      x="0 3.318542">tw</tspan></text>
 
 
+
 <text
    id="text27675"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2478,6 +2691,7 @@
      id="tspan27673"
      y="0"
      x="0">2</tspan></text>
+
 
 
 <text
@@ -2490,6 +2704,7 @@
      x="0 2.6465647">29</tspan></text>
 
 
+
 <text
    id="text27683"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2498,6 +2713,7 @@
      sodipodi:role="line"
      y="0"
      x="0 3.8744552 8.3028307 12.205181 20.507015">terms</tspan></text>
+
 
 
 <text
@@ -2510,6 +2726,7 @@
      x="0 5.0918851 12.732203 16.041779 21.133663 29.28307 32.592648 37.175442 41.376671 49.524086 57.154442 61.737236 66.32003 71.921005 76.503799 80.196938 85.288826 88.598396 92.673103 101.3316 105.91439 114.31884 117.62842 122.72031 130.85974 134.93346 137.98898 142.57178 148.17276 153.26463 156.57422 161.92114 165.61427">asthetermsgeneratedbythesignature</tspan></text>
 
 
+
 <text
    id="text27691"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2517,6 +2734,7 @@
      id="tspan27689"
      y="0"
      x="0">σ</tspan></text>
+
 
 
 <text
@@ -2529,6 +2747,7 @@
      x="0 5.0918851 10.692859 19.351355 22.660931 27.752815 35.902222 40.994106 43.539551 48.631435 53.72332 58.815205 62.889908 67.472702">andthealphabet</tspan></text>
 
 
+
 <text
    id="text27699"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2538,6 +2757,7 @@
      x="0">A</tspan></text>
 
 
+
 <text
    id="text27703"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2545,6 +2765,7 @@
      id="tspan27701"
      y="0"
      x="0">:</tspan></text>
+
 
 
 <text
@@ -2557,6 +2778,7 @@
      x="0 2.6465647">30</tspan></text>
 
 
+
 <text
    id="text27711"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2565,6 +2787,7 @@
      sodipodi:role="line"
      y="0"
      x="0 3.5974948 8.0288591">t,u</tspan></text>
+
 
 
 <text
@@ -2577,6 +2800,7 @@
      x="0 2.7676103">:=</tspan></text>
 
 
+
 <text
    id="text27719"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2586,6 +2810,7 @@
      x="0">a</tspan></text>
 
 
+
 <text
    id="text27723"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathSymbols10;-inkscape-font-specification:LMMathSymbols10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2593,6 +2818,7 @@
      id="tspan27721"
      y="0"
      x="0">|</tspan></text>
+
 
 
 <text
@@ -2605,6 +2831,7 @@
      x="0 3.5974948 6.3651052">t.u</tspan></text>
 
 
+
 <text
    id="text27731"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathSymbols10;-inkscape-font-specification:LMMathSymbols10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2612,6 +2839,7 @@
      id="tspan27729"
      y="0"
      x="0">|</tspan></text>
+
 
 
 <text
@@ -2623,6 +2851,7 @@
      x="0">t</tspan></text>
 
 
+
 <text
    id="text27739"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathSymbols10;-inkscape-font-specification:LMMathSymbols10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2630,6 +2859,7 @@
      id="tspan27737"
      y="0"
      x="0">k</tspan></text>
+
 
 
 <text
@@ -2641,6 +2871,7 @@
      x="0">u</tspan></text>
 
 
+
 <text
    id="text27747"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathSymbols10;-inkscape-font-specification:LMMathSymbols10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2648,6 +2879,7 @@
      id="tspan27745"
      y="0"
      x="0">|</tspan></text>
+
 
 
 <text
@@ -2659,6 +2891,7 @@
      x="0">t</tspan></text>
 
 
+
 <text
    id="text27755"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMMathSymbols7;-inkscape-font-specification:LMMathSymbols7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2668,6 +2901,7 @@
      x="0">◦</tspan></text>
 
 
+
 <text
    id="text27759"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathSymbols10;-inkscape-font-specification:LMMathSymbols10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2675,6 +2909,7 @@
      id="tspan27757"
      y="0"
      x="0">|</tspan></text>
+
 
 
 <text
@@ -2687,6 +2922,7 @@
      x="0 5.0918851 10.18377">dom</tspan></text>
 
 
+
 <text
    id="text27767"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2694,6 +2930,7 @@
      id="tspan27765"
      y="0"
      x="0">(</tspan></text>
+
 
 
 <text
@@ -2705,6 +2942,7 @@
      x="0">e</tspan></text>
 
 
+
 <text
    id="text27775"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2712,6 +2950,7 @@
      id="tspan27773"
      y="0"
      x="0">)</tspan></text>
+
 
 
 <text
@@ -2723,6 +2962,7 @@
      x="0">|</tspan></text>
 
 
+
 <text
    id="text27783"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2730,6 +2970,7 @@
      id="tspan27781"
      y="0"
      x="0">1</tspan></text>
+
 
 
 <text
@@ -2742,6 +2983,7 @@
      x="0 9.1038237">|&gt;</tspan></text>
 
 
+
 <text
    id="text27791"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2749,6 +2991,7 @@
      id="tspan27789"
      y="0"
      x="0">a</tspan></text>
+
 
 
 <text
@@ -2760,6 +3003,7 @@
      x="0">∈</tspan></text>
 
 
+
 <text
    id="text27799"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2767,6 +3011,7 @@
      id="tspan27797"
      y="0"
      x="0">A</tspan></text>
+
 
 
 <text
@@ -2783,6 +3028,7 @@
      x="0 2.6465647">32</tspan></text>
 
 
+
 <text
    id="text27809"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2793,6 +3039,7 @@
      x="0 9.1745586 17.224339 22.316223 26.389931 30.463638 35.027504 39.610302 42.665833 47.757717 51.067291 59.117073 62.426647 70.985519 75.568314 80.151108 84.733902 88.935135 97.23996 100.54953 105.13233 109.33356">Weassociatetoeveryterm</tspan></text>
 
 
+
 <text
    id="text27813"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2800,6 +3047,7 @@
      id="tspan27811"
      y="0"
      x="0">t</tspan></text>
+
 
 
 <text
@@ -2812,6 +3060,7 @@
      x="0 8.5588694 13.141665 16.824839 21.916723 27.008608">agraph</tspan></text>
 
 
+
 <text
    id="text27821"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathSymbols10;-inkscape-font-specification:LMMathSymbols10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2819,6 +3068,7 @@
      id="tspan27819"
      y="0"
      x="0">G</tspan></text>
+
 
 
 <text
@@ -2830,6 +3080,7 @@
      x="0">(</tspan></text>
 
 
+
 <text
    id="text27829"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2839,6 +3090,7 @@
      x="0">t</tspan></text>
 
 
+
 <text
    id="text27833"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2846,6 +3098,7 @@
      id="tspan27831"
      y="0"
      x="0">)</tspan></text>
+
 
 
 <text
@@ -2858,6 +3111,7 @@
      x="0 4.0647407 9.1566257 12.479153 15.024597 19.089338 27.648207 30.957783 36.049667">calledthe</tspan></text>
 
 
+
 <text
    id="text27841"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2868,6 +3122,7 @@
      x="0 4.9812999 8.8836508 13.86495 19.400171 28.133387 33.114685">graphof</tspan></text>
 
 
+
 <text
    id="text27845"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMMathItalic10;-inkscape-font-specification:LMMathItalic10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2875,6 +3130,7 @@
      id="tspan27843"
      y="0"
      x="0">t</tspan></text>
+
 
 
 <text
@@ -2887,6 +3143,7 @@
      x="0 6.552402 11.135198 19.440022 22.49555 28.096525 31.406099 35.988895 40.190125 45.282009 48.965183 53.547977 56.857555 59.913082 65.514061 73.563835 76.873413 81.965302 90.005119 95.097 99.67083 104.25362 107.9368 113.02869 116.33826 119.39379 124.48567 130.08665">,byinterpretingtheoperations</tspan></text>
 
 
+
 <text
    id="text27853"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2895,6 +3152,7 @@
      sodipodi:role="line"
      y="0"
      x="0 2.6465647">33</tspan></text>
+
 
 
 <text
@@ -2907,6 +3165,7 @@
      x="0 5.0918851 11.753876 15.063451 20.155336 28.344593 32.418301 37.256138 42.857113 46.166687 51.258572 59.486683 64.578568 72.2687 75.31427 84.531662 91.035248 94.090782 98.673576 105.33556 110.42745 118.11559 127.30011 135.48936 140.58125 145.16405 150.76501 156.366 164.55525 167.86482 172.95671 181.14597 185.21968 189.80247 196.71851 201.81039">ofthesyntaxasinFig.1.Wedefnethesetof</tspan></text>
 
 
+
 <text
    id="text27861"
    style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:LMSans10;-inkscape-font-specification:LMSans10-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2917,6 +3176,7 @@
      x="0 3.318542">tw</tspan></text>
 
 
+
 <text
    id="text27865"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2924,6 +3184,7 @@
      id="tspan27863"
      y="0"
      x="0">2</tspan></text>
+
 
 
 <text
@@ -2936,6 +3197,7 @@
      x="0 4.9812999 8.8836508 13.86495 19.400171 24.935392">graphs</tspan></text>
 
 
+
 <text
    id="text27873"
    style="font-style:italic;font-variant:normal;font-size:9.96259975px;font-family:LMRoman10;-inkscape-font-specification:LMRoman10-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2946,6 +3208,7 @@
      x="0 5.0918851 12.772053 16.081629 21.173513 29.36277 33.945568 37.628738 42.720627 47.812511 52.904396 60.594524 65.686409 72.348404 75.657974 80.749863 88.939117 92.248695 96.83149 101.03272 109.18013 116.8603 121.95219 126.01693 131.10881 135.6916 140.2744">asthegraphsofthetermsabove.</tspan></text>
 
 
+
 <text
    id="text27877"
    style="font-variant:normal;font-weight:normal;font-size:4.98129988px;font-family:LMSans8;-inkscape-font-specification:LMSans8-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2954,6 +3217,7 @@
      sodipodi:role="line"
      y="0"
      x="0 2.6465647">34</tspan></text>
+
 
 
 <g
@@ -2971,6 +3235,7 @@
      x="0">1</tspan></text>
 
 
+
 <text
    id="text27889"
    style="font-variant:normal;font-weight:normal;font-size:8.46819973px;font-family:LMRoman9;-inkscape-font-specification:LMRoman9-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2979,6 +3244,7 @@
      sodipodi:role="line"
      y="0"
      x="0 4.9522033 9.3040113 15.612821 20.448162 25.283504 29.635313 33.039528 40.537273 44.408936 49.244278 53.596085 57.467747 60.900753 66.214546 72.263382 79.031174 82.46418 87.545097 91.416756 95.285034 97.702705 100.36172 107.851 112.2028 117.03815 119.45582 126.95356 130.3383 135.17365 139.0453 141.46298 147.76332 151.19632 155.54813 160.38347 163.78769 167.65596 171.52762">Forunaryedges,wespecifyonlytheirsource.</tspan></text>
+
 
 
 <g
@@ -3067,6 +3333,7 @@
      x="0">©</tspan></text>
 
 
+
 <text
    id="text27977"
    style="font-variant:normal;font-weight:normal;font-size:6.97380018px;font-family:LMRoman7;-inkscape-font-specification:LMRoman7-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -3087,6 +3354,7 @@
      sodipodi:role="line"
      y="23.910999"
      x="16.719999 21.646292 25.188286 27.443613 31.84408 36.244549 38.499874 44.72678 47.60487 51.789146 54.902252 58.444244 61.55735 65.957817 69.928696 73.041801 75.297127 79.268013 83.66848 87.639359 92.579605 97.934784 101.04789 105.23495 108.77695 112.31894 115.86094 120.26141 122.51673 126.9172 130.88808 136.72934 138.98466 146.07004 148.94814 153.3486 155.81871 159.7896 162.90271 169.44762 173.4185 176.5316 178.78693 182.32892">LeibnizInternationalProceedingsinInformatics</tspan></text>
+
 
 
 <g
@@ -3135,6 +3403,7 @@
      sodipodi:role="line"
      y="0"
      x="0 4.4004679 7.7262731 12.12674 14.382068 18.352949 21.509291 27.350546 33.348713 37.319592 41.290474 44.446815 47.559921 51.960388 56.360855 61.301098 67.956894 72.883186 76.425179 78.680504 83.080971 87.481438 89.736763 93.278763 95.962975 100.79163 104.33363 108.51791 111.63101 114.74412 119.14458 128.3744 130.84453 135.245 141.04301 143.9211 148.32156 150.79169 154.76257 157.87567 164.42058 168.39146 171.50458 173.7599 177.94557 182.88582 188.88397 192.85486 196.82574 199.98209 203.09518 207.49565 211.89612 216.83636 222.19154 226.59201 230.99248 233.2478 235.50313 238.65947 243.05994 245.31528 249.71574 253.68661 258.62686 264.79102 268.33301 271.44611 277.991 281.96188 286.14618">SchlossDagstuhl–Leibniz-ZentrumfürInformatik,DagstuhlPublishing,Germany</tspan></text>
+
 
 
 </g></g></g></g></g></g></g><g
@@ -3228,15 +3497,24 @@
      x="0">G</tspan></text>
 
 
+
 <g
    transform="translate(329.828,521.066)"
    id="g26833-6" /></g></g><g
              transform="translate(-13.601,-4.193)"
              id="g26835-4" /></g></g></g></g></g><g
    id="g26745-7"
-   transform="translate(861.75348,321.24004)" /><g
+   transform="translate(861.75348,321.24004)" /><path
+   d="m 881.89805,353.7991 5.78156,3.84048"
+   style="fill:none;stroke:#000000;stroke-width:0.79701;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+   id="path26799-6"
+   inkscape:connector-curvature="0"
+   inkscape:transform-center-x="-6.0597808"
+   inkscape:transform-center-y="-4.3782411" /><g
    id="g26751-0"
-   transform="translate(861.75348,321.24004)"><path
+   transform="rotate(-33.596477,1024.3522,-1282.2555)"
+   inkscape:transform-center-x="-0.52311006"
+   inkscape:transform-center-y="-0.0053866792"><path
      d="M 1.40903,0 C 1.40903,0.77818 0.77818,1.40903 0,1.40903 -0.77818,1.40903 -1.40903,0.77818 -1.40903,0 c 0,-0.77818 0.63085,-1.40903 1.40903,-1.40903 0.77818,0 1.40903,0.63085 1.40903,1.40903 z"
      style="fill:#e6e6ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.79701;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
      id="path26753-1"
@@ -3250,7 +3528,9 @@
      id="g26765-0"
      transform="translate(0,-5.327)" /></g><g
    id="g26769-1"
-   transform="translate(861.75348,321.24004)"><path
+   transform="rotate(-23.439672,1290.3716,-1946.1535)"
+   inkscape:transform-center-x="-49.892685"
+   inkscape:transform-center-y="2.1003234"><path
      d="m 35.42531,14.17339 c 0,0.77819 -0.63085,1.40904 -1.40903,1.40904 -0.7782,0 -1.40904,-0.63085 -1.40904,-1.40904 0,-0.77819 0.63084,-1.40905 1.40904,-1.40905 0.77818,0 1.40903,0.63086 1.40903,1.40905 z"
      style="fill:#e6e6ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.79701;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
      id="path26771-6"
@@ -3264,64 +3544,55 @@
    transform="translate(895.77048,340.74004)"><g
      id="g26783-1" /><g
      id="g26785-1"
-     transform="translate(-34.017,-19.5)" /></g><path
-   d="m 850.41472,321.24004 h 6.94089"
-   style="fill:none;stroke:#000000;stroke-width:0.79701;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-   id="path26789-0"
-   inkscape:connector-curvature="0" /><g
+     transform="translate(-34.017,-19.5)" /></g><g
    id="g26791-7"
-   transform="translate(857.35561,321.24004)"><g
+   transform="rotate(1.5134683,-12914.542,33343.701)"
+   inkscape:transform-center-x="4.7829285"
+   inkscape:transform-center-y="-0.095736326"><g
      id="g26793-0"><path
        d="M 2.59026,0 -1.55415,2.0722 0,0 -1.55415,-2.0722"
        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="path26795-8"
-       inkscape:connector-curvature="0" /></g></g><path
-   d="m 863.5611,321.24004 h 6.94087"
-   style="fill:none;stroke:#000000;stroke-width:0.79701;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-   id="path26799-6"
-   inkscape:connector-curvature="0" /><g
+       inkscape:connector-curvature="0" /></g></g><g
    id="g26801-4"
-   transform="translate(870.50197,321.24004)"><g
+   transform="rotate(33.594624,-148.54032,1649.1374)"
+   inkscape:transform-center-x="-9.725099"
+   inkscape:transform-center-y="-6.1699873"><g
      id="g26803-1"><path
        d="M 2.59026,0 -1.55415,2.0722 0,0 -1.55415,-2.0722"
        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="path26805-4"
        inkscape:connector-curvature="0" /></g></g><path
-   d="m 863.42197,321.93514 28.29019,11.78702"
+   d="m 882.43679,352.66455 30.64435,-0.43902"
    style="fill:none;stroke:#000000;stroke-width:0.79701;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
    id="path26809-86"
-   inkscape:connector-curvature="0" /><g
+   inkscape:connector-curvature="0"
+   inkscape:transform-center-x="-23.602428"
+   inkscape:transform-center-y="1.7245106" /><g
    id="g26811-2"
-   transform="matrix(0.92303,0.38457,-0.38457,0.92303,891.71214,333.72214)"><g
+   transform="matrix(0.99983653,-0.01433082,0.01433082,0.99983653,913.08111,352.22552)"
+   inkscape:transform-center-x="-44.702782"
+   inkscape:transform-center-y="1.9875079"><g
      id="g26813-2"><path
        d="M 2.59026,0 -1.55415,2.0722 0,0 -1.55415,-2.0722"
        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="path26815-5"
        inkscape:connector-curvature="0" /></g></g><path
-   d="m 897.17879,335.41343 h 6.94087"
-   style="fill:none;stroke:#000000;stroke-width:0.79724997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:0.79724999, 0.79724999;stroke-dashoffset:0;stroke-opacity:1"
-   id="path26799-6-2"
-   inkscape:connector-curvature="0" /><g
-   id="g26801-4-8"
-   transform="translate(904.11969,335.41343)"><g
-     id="g26803-1-9"><path
-       d="M 2.59026,0 -1.55415,2.0722 0,0 -1.55415,-2.0722"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="path26805-4-9"
-       inkscape:connector-curvature="0" /></g></g><path
-   d="m 883.30759,-325.8336 a 5.350996,5.0444288 0 0 1 -7.55786,0.34245 5.350996,5.0444288 0 0 1 -0.36499,-7.12478 5.350996,5.0444288 0 0 1 7.5577,-0.3457 5.350996,5.0444288 0 0 1 0.36842,7.12463"
+   d="m 688.81876,-680.34242 a 5.350996,5.0444288 0 0 1 -7.55786,0.34245 5.350996,5.0444288 0 0 1 -0.36499,-7.12478 5.350996,5.0444288 0 0 1 7.5577,-0.3457 5.350996,5.0444288 0 0 1 0.36842,7.12463"
    sodipodi:open="true"
    sodipodi:end="0.73657432"
    sodipodi:start="0.73748364"
    sodipodi:ry="5.0444288"
    sodipodi:rx="5.350996"
-   sodipodi:cy="-329.22562"
-   sodipodi:cx="879.34698"
+   sodipodi:cy="-683.73444"
+   sodipodi:cx="684.85815"
    sodipodi:type="arc"
-   transform="scale(1,-1)"
+   transform="matrix(0.91747942,-0.39778326,-0.39778326,-0.91747942,0,0)"
    id="path31257"
-   style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.45961022;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98488698" /><g
-   transform="matrix(0.90278707,0,0,-0.90278707,741.17252,447.91757)"
+   style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.45961022;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98488698"
+   inkscape:transform-center-x="-26.520726"
+   inkscape:transform-center-y="0.95961781" /><g
+   transform="matrix(0.82828855,-0.35911358,-0.35911358,-0.82828855,821.13654,517.44017)"
    ns1:version="0.11.0"
    ns1:texconverter="pdflatex"
    ns1:pdfconverter="pdf2svg"
@@ -3330,8 +3601,13 @@
    ns1:scale="1.87253128169"
    ns1:alignment="middle center"
    ns1:jacobian_sqrt="2.496708"
-   id="g30403"><g
-     id="surface1"><g
+   id="g30403"
+   inkscape:transform-center-x="-26.721449"
+   inkscape:transform-center-y="1.0209802"><g
+     id="surface1"
+     inkscape:transform-center-x="-22.745752"
+     inkscape:transform-center-y="-13.429735"
+     transform="rotate(-27.36409,153.64252,131.79162)"><g
        style="fill:#000000;fill-opacity:1"
        id="g30400"><path
          inkscape:connector-curvature="0"
@@ -3409,4 +3685,10 @@
    sodipodi:ry="5.7969127"
    sodipodi:start="0.73748364"
    sodipodi:end="0.7076856"
-   d="m 972.63876,-326.5084 a 4.5706425,5.7969127 0 0 1 -6.43116,0.42158 4.5706425,5.7969127 0 0 1 -0.3803,-8.15323 4.5706425,5.7969127 0 0 1 6.4255,-0.54305 4.5706425,5.7969127 0 0 1 0.47602,8.14514 l -3.47308,-3.76844 z" /></g></svg>
+   d="m 972.63876,-326.5084 a 4.5706425,5.7969127 0 0 1 -6.43116,0.42158 4.5706425,5.7969127 0 0 1 -0.3803,-8.15323 4.5706425,5.7969127 0 0 1 6.4255,-0.54305 4.5706425,5.7969127 0 0 1 0.47602,8.14514 l -3.47308,-3.76844 z" /><path
+   d="m 869.23565,352.68979 6.94059,-0.0628"
+   style="fill:none;stroke:#000000;stroke-width:0.79701;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+   id="path26799-6-48"
+   inkscape:connector-curvature="0"
+   inkscape:transform-center-x="-7.4725341"
+   inkscape:transform-center-y="-0.22638787" /></g></svg>

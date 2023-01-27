@@ -1,14 +1,16 @@
 \section{Companion relations}\label{sec:comp-rel}
 
+In $\CMSO$, it is not possible to guess relations on the vertices of graphs in general. In this section, we present a very particular case of relations which can be guessed in $\CMSO$,  called \emph{companion relations}.
 
-
- 
+    \begin{definition}[Paths]
+   A \emph{path} $p$ of $G$ is a non-repeating list $(v_0,e_1,v_1,\dots,e_n,v_n)$ where $v_i$ is a vertex of $G$ and $e_i$ is an edge of $G$, such that the interface of $e_i$ is either $(v_{i-1}, v_{i})$ or $(v_{i},v_{i-1})$, for every $i\in[1,n]$. The path $p$ is \emph{directed} if the interface of $e_i$ is  $(v_{i-1}, v_{i})$ for every $i\in[1,n]$. The vertex $v_0$ is the \emph{input} of $p$, $v_n$  is its \emph{output} and $(v_0,v_n)$ its \emph{interface}. 
+   \end{definition} 
 
 
 \begin{definition}[Companion relation] Let $G$ be a graph. 
-Two paths  of $G$ are \emph{orthogonal} if they do not share any edge, and whenever they share a vertex, it is necessarily an interface vertex of one of them. A set of paths is a \emph{set of orthogonal paths} if its paths are pairwise orthogonal.
+Two paths  of $G$ are \emph{orthogonal} if they do not share any edge, and whenever they share a vertex, it is necessarily an interface vertex of one of them. %A set of paths is a \emph{set of orthogonal paths} if its paths are pairwise orthogonal.
 
-A relation $R$ on the vertices of $G$ is a \emph{companion relation} if there is a set of orthogonal paths $P$ such that $(v,w)\in R$ iff $(v,w)$ is the interface of a path $p\in P$. We say that $p$ is a \emph{witness} for $(v,w)$, and that $P$ is a \emph{witness} for the relation $R$.
+A relation $R$ on the vertices of $G$ is a \emph{companion relation} if there is a set of (pairwise) orthogonal paths $P$ such that $(v,w)\in R$ iff $(v,w)$ is the interface of a path $p\in P$. We say that $p$ is a \emph{witness} for $(v,w)$, and that $P$ is a \emph{witness} for the relation $R$.
 \end{definition}
 
 \begin{example} \label{ex:guared-set-of-paths}

@@ -1,23 +1,47 @@
 \section{Preliminaries}\label{sec:prelim}
 
- Let $\Sigma_1$ and $\Sigma_2$ be two disjoint sets of \emph{unary} and \emph{binary} letters respectively. Throughout the paper, we work with the alphabet $\Sigma=\Sigma_1\cup \Sigma_2$. 
+
+
+%We fix in the rest of the paper an alphabet $\Sigma$ which is a ranked set whose elements, called letters, are either . We let  $\Sigma_1$ and $\Sigma_2$ be the set of \emph{unary} and \emph{binary} letters of $\Sigma$ respectively.  
  %\todo{Les transformer en $\Sigma$?}
+ 
 \subsection{Tree-width 2 graphs}
 
+\begin{definition}[Ranked sets]
+A \emph{ranked set} is a set where every element has an associated \emph{arity} in $\mathbb{N}$. Elements of arity $0$ are called \emph{nullary}, of arity $1$ are called \emph{unary}, of arity $2$ are called \emph{binary} etc. An \emph{arity-preserving function} is a function between two ranked sets which does not change arities.
+\end{definition}
+
+We fix in the rest of the paper an alphabet $\Sigma$, which is a ranked set whose \emph{letters} are either unary or binary. We denote their sets $\Sigma_1$ and $\Sigma_2$ respectively.
+
+\begin{definition}[Graphs]
+ A graph consists of:
+\begin{itemize}
+\item a (not ranked) set $V$ of \emph{vertices},
+\item a ranked set $E$ of \emph{edges} of arity $1$ or $2$,
+\item a function $E\mapsto V^*$ which maps each $n$-ary edge to its \emph{interface}, which has length $n$,
+\item an arity-preserving \emph{labeling} $E\mapsto \Sigma$,
+\item a list of size $n\in\set{1,2}$ called its \emph{interface}. The number $n$ is called the arity of the \emph{graph}.
+\end{itemize} \todo{define subgraph}
+
+The first element of the interface of an edge is called its \emph{source}, and the last element is called its \emph{target}.
+The first element of the interface of a graph  is called its \emph{input}, and the last element is called its \emph{output}\footnote{For unary graphs and edges, the input equals the output.}. All the vertices of a graph which are not in the interface are called \emph{inner vertices}. An \emph{$a$-edge} is an edge labeled by the letter $a$.
+ 
+ A  graph is \emph{empty} if it has no edges, and if all its vertices are interface vertices.  
+ 
+ If $v, w$ are two vertices of a graph $G$, we denote by $(v,G,w)$ the graph obtained from $G$ by declaring $v$ as its input and $w$ as its output.
+\end{definition}
 
 
-\begin{definition}[Graphs] 
- A \emph{graph} $G$ is  a tuple $(V,E_1,E_2, s, t, l_1, l_2, \iota, o)$, where $V$ is a set of \emph{vertices}, $E_1$ and $E_2$ are two disjoint sets  of \emph{unary} and \emph{binary edges}, $s:E_1\uplus E_2\to V$  and $t:E_1\to V$ are a \emph{source} and a \emph{target} functions specifying the source and the target of each edge\footnote{For unary edges, we specify only their source.}, $l_1:E_1\to \Sigma_1$ and $l_2:E_2\to \Sigma_2$ are \emph{labeling functions}  indicating the label of each edge,  $\iota$ is the  \emph{input} vertex and $o$ is the \emph{output} vertex, $\iota$ and $o$ are the \emph{interface vertices} of $G$. All the vertices of $G$ which are not interface vertices are called \emph{inner vertices}. The \emph{interface of $G$} is the pair $(\iota, o)$ if $\iota\neq o$, or the vertex $\iota$ otherwise.   An \emph{$a$-edge} is an edge labeled by the letter $a$. We say that $G$ is \emph{unary} if $\iota=o$, and \emph{binary} otherwise. The \emph{interface} of a binary edge $e$ is $(s(e),t(e))$, the interface of a unary edge $e$ is $s(e)$. An \emph{interface in} $G$ is a list of vertices of length $1$ or $2$. A  graph is \emph{empty} if it has no edges, and if all its vertices are interface vertices.  
-  %\todo{Do it use it?} \todo{define interface in a graph and its arity}
- \end{definition}
-   \begin{remark} What we call here a graph is what is usually called a hypergraph (because of the unary edges) with interface.  We depict graphs  with unlabeled ingoing and outgoing arrows to denote the input and the output, respectively. 
+
+%\begin{definition}[Graphs] 
+% A \emph{graph} $G$ is  a tuple $(V,E_1,E_2, s, t, l_1, l_2, \iota, o)$, where $V$ is a set of \emph{vertices}, $E_1$ and $E_2$ are two disjoint sets  of \emph{unary} and \emph{binary edges}, $s:E_1\uplus E_2\to V$  and $t:E_2\to V$ are a \emph{source} and a \emph{target} functions specifying the source and the target of each edge\footnote{For unary edges, we specify only their source.}, $l_1:E_1\to \Sigma_1$ and $l_2:E_2\to \Sigma_2$ are \emph{labeling functions}  indicating the label of each edge,  $\iota$ is the  \emph{input} vertex and $o$ is the \emph{output} vertex, $\iota$ and $o$ are the \emph{interface vertices} of $G$. All the vertices of $G$ which are not interface vertices are called \emph{inner vertices}. The \emph{interface of $G$} is the pair $(\iota, o)$ if $\iota\neq o$, or the vertex $\iota$ otherwise.   An \emph{$a$-edge} is an edge labeled by the letter $a$. We say that $G$ is \emph{unary} if $\iota=o$, and \emph{binary} otherwise. The \emph{interface} of a binary edge $e$ is $(s(e),t(e))$, the interface of a unary edge $e$ is $s(e)$. An \emph{interface in} $G$ is a list of vertices of length $1$ or $2$. A  graph is \emph{empty} if it has no edges, and if all its vertices are interface vertices.  
+%  %\todo{Do it use it?} \todo{define interface in a graph and its arity}
+% \end{definition}
+   \begin{remark} What we call here a graph is what is usually called a hypergraph (because of the unary edges) with interface. 
    \end{remark}
-   \begin{definition}[Paths]
-   A \emph{path} $p$ of $G$ is a non-repeating list $(v_0,e_1,v_1,\dots,e_n,v_n)$ where $v_i$ is a vertex of $G$ and $e_i$ is an edge of $G$, such that the interface of $e_i$ is either $(v_{i-1}, v_{i})$ or $(v_{i},v_{i-1})$, for every $i\in[1,n]$. The path $p$ is \emph{directed} if the interface of $e_i$ is  $(v_{i-1}, v_{i})$ for every $i\in[1,n]$. The vertex $v_0$ is the \emph{input} of $p$, $v_n$  is its \emph{output} and $(v_0,v_n)$ its \emph{interface}. 
-   The path $p$ is \emph{safe} if it does not contain an interface vertex of $G$ as an inner vertex. 
-   \end{definition} 
+
    %\todo{The way we depict graphs, forget the orientation of letters.}
-\begin{example}\label{ex:graphs} Here are some examples of graphs. The $c$-edge in the  graph $G$  a unary edge.  
+\begin{example}\label{ex:graphs}  We depict graphs  with unlabeled ingoing and outgoing arrows to denote the input and the output, respectively.  The $c$-edge in the leftmost graph below is a unary edge.   The graph in the middle is a unary graph.
  \begin{center}
 \includegraphics[scale=.35]{Pictures/example-graph}
  \end{center}
@@ -26,11 +50,11 @@
 
   
 \begin{definition}[$\TWT$ graphs]\label{def:graph-terms}
-Consider the  signature $\sigma$ containing the binary operations $\cdot$ and $\parallel$, the unary operations ${\ }^\circ$ and $\dom$, and the nullary operations $1$ and $\top$. We define \emph{$\TWT$ terms} as the terms generated by the signature $\sigma$ and the alphabet $\Sigma$: 
+Consider the  \emph{signature $\sigma$} which is a ranked set containing the binary operations $\cdot$ and $\parallel$, the unary operations ${\ }^\circ$ and $\dom$, and the nullary operations $1$ and $\top$. We define \emph{$\TWT$ terms} as the terms generated by the signature $\sigma$ and the alphabet $\Sigma$: 
 \begin{align*}
 t,u:=\  a\ \mid\ t\comp u\ \mid\ (t\parallel u)\ \mid \ t^\circ\ \mid\ \dom(t)\ \mid\ 1\ \mid \ \top \qquad \qquad a\in \Sigma
 \end{align*}
-We define the graph of a term $t$, $\G(t)$, by induction on $t$, by letting:  $$\begin{array}{l}
+We define by induction the graph $\G(t)$ of a term $t$, by letting:  $$\begin{array}{l}
     
       \Gr 1=
                \begin{tikzpicture}[baseline=(0.south),xscale=.7]
@@ -58,7 +82,7 @@ We define the graph of a term $t$, $\G(t)$, by induction on $t$, by letting:  $$
                \end{tikzpicture}
                \end{array} 
 $$
-and interpreting the operations of the syntax as follows:
+for every $a\in \Sigma_1$ and $b\in\Sigma_2$ and interpreting the operations of the syntax as follows:
 $$\begin{array}{llllll}
  G\comp H&= &  \begin{tikzpicture}[baseline=(0.south),xscale=.7]
                   \position (0) (0,0);
@@ -92,8 +116,8 @@ $$\begin{array}{llllll}
                \end{tikzpicture}  
   
 \end{array} 
-$$
-In the picture above, we represent the graph $G$ by an arrow from its input to its output. For example, the graph $\dom(G)$ is obtained from $G$ by relocating the output to the input.  We usually write $tu$ instead of $t\comp u$ and give priorities to the symbols of $\sigma$ so that $ab\parll c$ parses to $(a\comp b)\parll c$.
+$$\todo{describe more precisely}
+In the picture above, we represent the graph $G$ by an arrow from its input to its output, which might be equal. For example, the graph $\dom(G)$ is obtained from $G$ by relocating the output to the input.  We usually write $tu$ instead of $t\comp u$ and give priorities to the symbols of $\sigma$ so that $ab\parll c$ parses to $(a\comp b)\parll c$.
 We define the set of \emph{$\TWT$ graphs} as the graphs of the terms above. The graphs of $a$ and $a\parallel 1$, where $a\in \Sigma$, are called \emph{atomic}.
 \end{definition}
 We will sometimes identify terms with the graphs they generate. For example we may say that $(a\parallel b)$ is binary or connected to say that its graph is so.  
@@ -121,7 +145,7 @@ Sets of graphs are called \emph{graph languages}.  A graph language is \emph{una
 We introduce $\CMSO$, the \emph{counting monadic second-order logic}, which is used to describe graph languages. 
 
 \begin{definition}[The logic $\CMSO$]
-Let $\mathcal{V}$ be the relational signature  which contains two binary symbols $\mathsf{source}$ and $\mathsf{target}$,   two unary symbols $\mathsf{input}$ and $\mathsf{output}$ and a unary symbol $a$ for each (unary or binary) letter $a\in \Sigma$. %We call the signature $\mathcal{V}$ the \emph{graphs vocabulary}.
+Graphs vocabulary $\mathcal{V}$ is the ranked set  which contains two binary symbols $\mathsf{source}$ and $\mathsf{target}$, a unary symbol $a$ for each (unary or binary) letter $a\in \Sigma$ and   two unary symbols $\mathsf{input}$ and $\mathsf{output}$. %We call the signature $\mathcal{V}$ the \emph{graphs vocabulary}.
 \smallskip
 
 Let $\mathbb{X}_1$ be a countable set of \emph{first-order variables} and $\mathbb{X}_2$  a countable set of \emph{set variables}
@@ -133,12 +157,12 @@ $$ \phi, \psi:= \  r(x_1,\dots, x_n) \ \mid \ x\in X \ \mid\ x=y \ \mid \ \exist
 
 We define the semantics of $\CMSO$ formulas. To handle free variables, $\CMSO$ formulas are interpreted over \emph{pointed graphs}.
 
-\begin{definition}[Semantics of $\CMSO$] Let $G$ be a graph and $\Gamma$ be a set of variables. An \emph{interpretation} of $\Gamma$ in $G$ is a function mapping each first-order variable of $\Gamma$ to an edge or vertex of $G$, and each set variables to a a set of edges and vertices of $G$. A \emph{pointed graph} is a pair  $\langle G,I\rangle$ where $G$ is a graph and $I$ is an interpretation of a set of variables $\Gamma$ in $G$. If $\Gamma$ is empty, we denote it simply as $G$.   Let $\phi$ be a $\CMSO$ formula whose free variables are $\Gamma$ and let $\langle G,I\rangle$ be a pointed graph such that $I$ is an interpretation of $\Gamma$.  We define the \emph{satisfiability relation} $\langle G, I\rangle\models \phi$ as usual, by induction on the formula $\phi$. Here is an example of the semantics of some $\CMSO$ formulas:
+\begin{definition}[Semantics of $\CMSO$] Let $G$ be a graph and $\Gamma$ be a set of variables. An \emph{interpretation} of $\Gamma$ in $G$ is a function mapping each first-order variable of $\Gamma$ to an edge or vertex of $G$, and each set variable to a a set of edges and vertices of $G$. A \emph{pointed graph} is a pair  $\langle G,I\rangle$ where $G$ is a graph and $I$ is an interpretation of a set of variables $\Gamma$ in $G$. If $\Gamma$ is empty, we denote it simply as $G$.   Let $\phi$ be a $\CMSO$ formula whose free variables are $\Gamma$ and let $\langle G,I\rangle$ be a pointed graph such that $I$ is an interpretation of $\Gamma$.  We define the \emph{satisfiability relation} $\langle G, I\rangle\models \phi$ as usual, by induction on the formula $\phi$. Here is an example of the semantics of some $\CMSO$ formulas:
 \medskip
 
 \noindent \begin{tabular}{rlrl}
 $\mathsf{source}(v,e)$ :& the source of the edge $e$ is the vertex $v$.\quad\qquad & $\mathsf{input}(v)$ : & $v$ is the input of $G$.\\
-$\mathsf{target}(e,v)$ :& the target of the edge $e$ is the vertex $v$. &
+$\mathsf{target}(v,e)$ :& the target of the edge $e$ is the vertex $v$. &
 $\mathsf{output}(v)$ : & $v$ is the output of $G$.\\
 $(|X|=k)[m]$ :& the size of $X$ is congruent to $k$ modulo $m$.& $a(e)$ :  &  $e$ is an $a$-edge.  \\[7pt]
 \end{tabular}
@@ -154,13 +178,13 @@ A graph language is \emph{$\CMSO$ definable} if it is the graph language of  a $
 from the input to the output is definable in $\CMSO$, by the following formula for instance:
 \begin{align*}
 \phi:=\ \exists e.\ \exists i.\ \exists o.\ \mathsf{input}(i) \wedge \mathsf{output}(o)
-\wedge a(e) \wedge \mathsf{source}(i, e) \wedge \mathsf{target}(e, o)
+\wedge a(e) \wedge \mathsf{source}(i, e) \wedge \mathsf{target}(o,e)
 \end{align*}
 Note that the graphs of this language may not be $\TWT$ graphs. 
 \end{example}
 
 \begin{example}
- The set of $\TWT$ graphs is a $\CMSO$ definable language. Indeed, $\TWT$ graphs are those graphs which exclude $K_4$, the complete graph with four vertices, as  minor. The set of graphs which exclude a fixed set of minors can be easily defined in $\CMSO$~\cite{Courcelle2012GraphSA}. 
+ The set of $\TWT$ graphs is $\CMSO$ definable. Indeed, $\TWT$ graphs are those graphs which exclude $K_4$, the complete graph with four vertices, as  minor. The set of graphs which exclude a fixed set of minors can be easily defined in $\CMSO$~\cite{Courcelle2012GraphSA}. 
  
  The set of $\TWT$ graphs having an $a$-edge from the input to the output is  definable in $\CMSO$, by the conjunction of the formula $\phi$ of Ex.~\ref{ex:mso-def} and the formula defining $\TWT$ graphs. 
   \end{example}
@@ -170,8 +194,8 @@ We state below a \emph{localization result}, which allows us to transform a $\CM
 %To state it, we need the following notation: let $G$ be a graph, $s$ and $t$ be vertices of $G$ and $H$ be a set of edges and vertices. We write $(s,H,t)$ for the graph whose input and output are $s$ and $t$ respectively, whose sets of vertices and edges is the set of vertices and edges appearing in $H$, and which inherits the labeling function, the source and the target functions from $G$.
 
 \begin{proposition}\label{prop:localization}
-Let $\phi$ be a $\CMSO$ sentence, $x,y\in \mathbb{X}_1$ and $X\in\mathbb{X}_2$. There is a $\CMSO$ formula $\phi_{|(x,X,y)}$ such that, for every graph $G$ and  interpretation $I:(x\mapsto s, X\mapsto H, y\mapsto t)$, such that $(s,H,t)$ is a subgraph of $G$, we have:
-$$ \langle G, I\rangle \models \phi|_{(x,X,y)}\qquad \Leftrightarrow \qquad (s, H, t) \models \phi$$
+Let $\phi$ be a $\CMSO$ sentence, $x,y\in \mathbb{X}_1$ and $X\in\mathbb{X}_2$. There is a $\CMSO$ formula $\phi_{|(x,X,y)}$ such that, for every graph $G$ and  interpretation $I:(x\mapsto v, X\mapsto H, y\mapsto w)$ of the variables $\set{x,y,X}$ in $G$, such that $(v,H,w)$ is a subgraph of $G$, we have:
+$$ \langle G, I\rangle \models \phi|_{(x,X,y)}\qquad \Leftrightarrow \qquad (v, H, w) \models \phi$$
 \end{proposition}
 
 \begin{proof}
@@ -186,9 +210,14 @@ The formula $X\subseteq Y$ is interpreted as ``$X$ is a subset of $Y$'' and $r(X
 
 
 \subsection{Recognizability}
- We can specify languages of graphs by means of $\sigma$-algebras, generalizing to graphs the notion of recognizability by monoids.  A \emph{$\sigma$-algebra} $\A$ is the collection of a set $D$ called its \emph{domain}, and for each $n$-ary operation  $o$ of $\sigma$, a function $o^\A:D^n\to D$.
- A homomorphism $h:\A\to \B$ between two $\sigma$-algebras $\A$ and $\B$ is a function from the domain of $\A$ to the domain of $\B$  which preserves the operations of $\sigma$.  Note that the set of $\TWT$ graphs, where the operations of $\sigma$ are interpreted as in Def.~\ref{def:graph-terms}, forms a $\sigma$-algebra which we denote by $\G_\TWT$.
-  
+ We can specify languages of graphs by means of $\sigma$-algebras, generalizing to graphs the notion of recognizability by monoids.  
+ 
+ \begin{definition}[$\sigma$-algebra] A \emph{$\sigma$-algebra} $\A$ is the collection of a set $D$ called its \emph{domain}, and for each $n$-ary operation  $o$ of $\sigma$, a function $o^\A:D^n\to D$.
+ A homomorphism $h:\A\to \B$ between two $\sigma$-algebras $\A$ and $\B$ is a function from the domain of $\A$ to the domain of $\B$  which preserves the operations of $\sigma$. 
+\end{definition} 
+
+  \begin{definition}[$\sigma$-algebra of graphs] The set of $\TWT$ graphs, where the operations of $\sigma$ are interpreted as in Definition~\ref{def:graph-terms}, forms a $\sigma$-algebra which we denote by $\G_\TWT$.
+  \end{definition}
 
 \begin{definition}[Recognizability]
  We say that a language $L$ of $\TWT$ graphs is \emph{recognizable} if there is a $\sigma$-algebra $\A$ with finite domain, a homomorphism $h:\G_\TWT\to \A$ and a subset $P$ of the domain of $\A$ such that $L=h^{-1}(P)$.
@@ -295,7 +324,7 @@ We define the \emph{Kleene iteration} $L^+$ and the \emph{parallel iteration} $L
 
 \begin{definition}[Pure graphs.]
 Let $G$ be a graph. If we remove the interface vertices of $G$ we obtain one or several connected components which we call the \emph{faces} of $G$. 
-The \emph{arity of a face} is the number of interface vertices of $G$ it is incident to. 
+The \emph{arity of a face} is the number of interface vertices of $G$ it is incident to. \todo{define precisely}
 \begin{center}
 \includegraphics[scale=.4]{Pictures/unary-and-binary-faces}
 \end{center}
@@ -329,10 +358,10 @@ Here is a picture illustrating this proposition:
 \includegraphics[scale=.35]{Pictures/spt}
 \end{center}
 \begin{definition}[Contexts]
-%A \emph{context} is a graph with a unique edge, labeled by a special letter, called its \emph{hole}.  If $C$ is a context whose hole is $h$ and $H$ a graph \textbf{with the same arity as $h$}, we define $C[H]$ as the graph obtained from the disjoint union of $C$ and $H$, by removing the edge $h$,  identifying the input of $h$ with the input of $H$, the output of $h$ with the output of $H$, and  by letting the interface of $C[H]$ to be that of $C$. 
+A \emph{context} is a graph with a unique edge, labeled by a special letter, called its \emph{hole}.  If $C$ is a context whose hole is $h$ and $H$ a graph \textbf{with the same arity as $h$}, we define $C[H]$ as the graph obtained from the disjoint union of $C$ and $H$, by removing the edge $h$,  identifying the input of $h$ with the input of $H$, the output of $h$ with the output of $H$, and  by letting the interface of $C[H]$ to be that of $C$. 
 Let $\mathbb{S}$ be a set of \emph{special (unary and binary) letters}, and let $n\geq 1$. An \emph{$n$-context}  is a graph such that $n$ of its edges, called \emph{holes}, are numbered from $1$ to $n$, and labeled by $n$ distinct special letters.  We call $1$-contexts simply \emph{contexts}.
 
-Let $C$ be an $n$-context whose holes are $h_1\dots,h_n$ and let $H_1,\dots,H_n$ be graphs such that $h_i$ and the $H_i$ have the same arity, for all $i\in [1, n]$.  We define $C[H_1,\dots,H_n]$ as the graph obtained from the disjoint union of $C$ and $H_1,\dots, H_n$, by removing the holes of $G$, and for every $i\in[1,n]$  identifying the input of $h_i$ with the input of $H_i$, the output of $h_i$ with the output of $H_i$, and  by letting its interface of  to be that of $C$.
+Let $C$ be an $n$-context whose holes are $h_1\dots,h_n$ and let $H_1,\dots,H_n$ be graphs such that $h_i$ and the $H_i$ have the same arity, for all $i\in [1, n]$.  We define $C[H_1,\dots,H_n]$ as the graph obtained from the disjoint union of $C$ and $H_1,\dots, H_n$, by removing the holes of $G$, and for every $i\in[1,n]$  identifying the input of $h_i$ with the input of $H_i$, the output of $h_i$ with the output of $H_i$, and  by letting its interface to be that of $C$.\todo{do I use general contexts?}
 \end{definition}
 
 \begin{definition}[Islands and modules]  

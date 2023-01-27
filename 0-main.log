@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.23)  25 APR 2022 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.23)  29 JUN 2022 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1474,39 +1474,63 @@ Xy-pic pdf driver: `line' extension support
 (/usr/local/texlive/2021/texmf-dist/tex/generic/xypic/xypdf-li.tex loaded)
 Xy-pic pdf driver: `rotate' extension support
 (/usr/local/texlive/2021/texmf-dist/tex/generic/xypic/xypdf-ro.tex loaded)
-loaded)) (./0-main.aux)
+loaded)) (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+\csq@reset=\count364
+\csq@gtype=\count365
+\csq@glevel=\count366
+\csq@qlevel=\count367
+\csq@maxlvl=\count368
+\csq@tshold=\count369
+\csq@ltx@everypar=\toks68
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'UKenglish'.
+
+(./0-main.aux)
 \openout1 = `0-main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Info: Redefining \microtypecontext on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Info: Redefining \microtypecontext on input line 56.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 55.
+LaTeX Info: Redefining \showhyphens on input line 56.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1517,36 +1541,28 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
+\scratchcounter=\count370
 \scratchdimen=\dimen386
 \scratchbox=\box161
-\nofMPsegments=\count365
-\nofMParguments=\count366
-\everyMPshowfont=\toks68
-\MPscratchCnt=\count367
+\nofMPsegments=\count371
+\nofMParguments=\count372
+\everyMPshowfont=\toks69
+\MPscratchCnt=\count373
 \MPscratchDim=\dimen387
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
-\everyMPtoPDFconversion=\toks69
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
+\everyMPtoPDFconversion=\toks70
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count370
-Package hyperref Info: Link coloring OFF on input line 55.
+\c@lstlisting=\count376
+Package hyperref Info: Link coloring OFF on input line 56.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1558,11 +1574,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count371
+\c@section@level=\count377
 )
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+LaTeX Info: Redefining \ref on input line 56.
+LaTeX Info: Redefining \pageref on input line 56.
+LaTeX Info: Redefining \nameref on input line 56.
  (./0-main.out) (./0-main.out)
 \@outlinefile=\write7
 \openout7 = `0-main.out'.
@@ -1572,36 +1588,36 @@ Package caption Info: hypcap package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
-5.
+6.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
-5.
+6.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-55.
+56.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-55.
+56.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 55.
+(Font)              <10> on input line 56.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 55.
+(Font)              <7> on input line 56.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 55.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+(Font)              <5> on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1610,7 +1626,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1619,49 +1635,49 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 55
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 56
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 5
-5.
+6.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/10'
-(microtype)             (new value: 10.0pt) on input line 55.
+(microtype)             (new value: 10.0pt) on input line 56.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/7'
-(microtype)             (new value: 7.0pt) on input line 55.
+(microtype)             (new value: 7.0pt) on input line 56.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/5'
-(microtype)             (new value: 5.0pt) on input line 55.
+(microtype)             (new value: 5.0pt) on input line 56.
 LaTeX Font Info:    Trying to load font information for U+fgerm on input line 5
-5.
+6.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fge/Ufgerm.fd
 File: fgerm.fd 2015/05/19 1.25 fge roman symbol font definitions
 )
 Package microtype Info: Fixing zero fontdimen6 for font `U/fgerm/m/n/10'
-(microtype)             (new value: 10.0pt) on input line 55.
+(microtype)             (new value: 10.0pt) on input line 56.
 Package microtype Info: Fixing zero fontdimen6 for font `U/fgerm/m/n/7'
-(microtype)             (new value: 7.0pt) on input line 55.
+(microtype)             (new value: 7.0pt) on input line 56.
 Package microtype Info: Fixing zero fontdimen6 for font `U/fgerm/m/n/5'
-(microtype)             (new value: 5.0pt) on input line 55.
+(microtype)             (new value: 5.0pt) on input line 56.
 LaTeX Font Info:    Trying to load font information for U+fgeit on input line 5
-5.
+6.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fge/Ufgeit.fd
 File: fgeit.fd 2015/05/19 1.25 fge italic symbol font definitions
 )
 Package microtype Info: Fixing zero fontdimen6 for font `U/fgeit/m/n/10'
-(microtype)             (new value: 10.0pt) on input line 55.
+(microtype)             (new value: 10.0pt) on input line 56.
 Package microtype Info: Fixing zero fontdimen6 for font `U/fgeit/m/n/7'
-(microtype)             (new value: 7.0pt) on input line 55.
+(microtype)             (new value: 7.0pt) on input line 56.
 Package microtype Info: Fixing zero fontdimen6 for font `U/fgeit/m/n/5'
-(microtype)             (new value: 5.0pt) on input line 55.
-Package xypdf Info: Line width: 0.39998pt on input line 55.
+(microtype)             (new value: 5.0pt) on input line 56.
+Package xypdf Info: Line width: 0.39998pt on input line 56.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 5
-7.
+8.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1673,23 +1689,23 @@ Package microtype Info: Loading generic protrusion settings for font family
 \openout3 = `0-main.vtc'.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 59.
+(Font)              <9> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 59.
+(Font)              <6> on input line 60.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/9'
-(microtype)             (new value: 9.0pt) on input line 59.
+(microtype)             (new value: 9.0pt) on input line 60.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 59.
+(microtype)             (new value: 6.0pt) on input line 60.
 Package microtype Info: Fixing zero fontdimen6 for font `U/fgerm/m/n/9'
-(microtype)             (new value: 9.0pt) on input line 59.
+(microtype)             (new value: 9.0pt) on input line 60.
 Package microtype Info: Fixing zero fontdimen6 for font `U/fgerm/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 59.
+(microtype)             (new value: 6.0pt) on input line 60.
 Package microtype Info: Fixing zero fontdimen6 for font `U/fgeit/m/n/9'
-(microtype)             (new value: 9.0pt) on input line 59.
+(microtype)             (new value: 9.0pt) on input line 60.
 Package microtype Info: Fixing zero fontdimen6 for font `U/fgeit/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 59.
+(microtype)             (new value: 6.0pt) on input line 60.
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-59.
+60.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1699,7 +1715,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  (./1-Intro.tex
-<cc-by.pdf, id=142, 88.33pt x 31.11626pt>
+<cc-by.pdf, id=146, 88.33pt x 31.11626pt>
 File: cc-by.pdf Graphic file (type pdf)
 <use cc-by.pdf>
 Package pdftex.def Info: cc-by.pdf  used on input line 52.
@@ -1710,7 +1726,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<lipics-logo-bw.pdf, id=145, 591.44762pt x 144.42657pt>
+<lipics-logo-bw.pdf, id=149, 591.44762pt x 144.42657pt>
 File: lipics-logo-bw.pdf Graphic file (type pdf)
 <use lipics-logo-bw.pdf>
 Package pdftex.def Info: lipics-logo-bw.pdf  used on input line 52.
@@ -1720,85 +1736,90 @@ Package pdftex.def Info: lipics-logo-bw.pdf  used on input line 52.
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./cc-by
 .pdf> <./lipics-logo-bw.pdf>]) (./2-Prelims.tex
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
-nput line 9.
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 10.
+nput line 10.
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.5> on input line 10.
+(Font)              <8.5> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.94997> on input line 10.
+(Font)              <5.94997> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.25> on input line 10.
+(Font)              <4.25> on input line 27.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 10.
+(Font)              size <8> substituted on input line 27.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 10.
+(Font)              size <5> substituted on input line 27.
 
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 10.
+(Font)              size <8> substituted on input line 27.
 
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 10.
+(Font)              size <5> substituted on input line 27.
 
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/8.5'
-(microtype)             (new value: 8.5pt) on input line 10.
+(microtype)             (new value: 8.5pt) on input line 27.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/5.9499
 7'
-(microtype)             (new value: 5.94997pt) on input line 10.
+(microtype)             (new value: 5.94997pt) on input line 27.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/4.25'
-(microtype)             (new value: 4.25pt) on input line 10.
+(microtype)             (new value: 4.25pt) on input line 27.
 
 LaTeX Font Warning: Font shape `U/fgerm/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 10.
+(Font)              size <8> substituted on input line 27.
 
 Package microtype Info: Fixing zero fontdimen6 for font `U/fgerm/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 10.
+(microtype)             (new value: 8.0pt) on input line 27.
 
 LaTeX Font Warning: Font shape `U/fgerm/m/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 10.
+(Font)              size <5> substituted on input line 27.
 
 
 LaTeX Font Warning: Font shape `U/fgeit/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 10.
+(Font)              size <8> substituted on input line 27.
 
 Package microtype Info: Fixing zero fontdimen6 for font `U/fgeit/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 10.
+(microtype)             (new value: 8.0pt) on input line 27.
 
 LaTeX Font Warning: Font shape `U/fgeit/m/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 10.
+(Font)              size <5> substituted on input line 27.
 
 Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
- line 13.
+ line 40.
 Package hyperref Info: bookmark level for unknown example defaults to 0 on inpu
-t line 20.
-<Pictures/example-graph.pdf, id=203, 968.7838pt x 142.45992pt>
+t line 44.
+<Pictures/example-graph.pdf, id=207, 968.7838pt x 142.45992pt>
 File: Pictures/example-graph.pdf Graphic file (type pdf)
 <use Pictures/example-graph.pdf>
-Package pdftex.def Info: Pictures/example-graph.pdf  used on input line 22.
+Package pdftex.def Info: Pictures/example-graph.pdf  used on input line 46.
 (pdftex.def)             Requested size: 339.0794pt x 49.86171pt.
 [2.2]
-<Pictures/unary-letter.pdf, id=225, 22.76103pt x 14.96162pt>
+<Pictures/unary-letter.pdf, id=229, 22.76103pt x 14.96162pt>
 File: Pictures/unary-letter.pdf Graphic file (type pdf)
 <use Pictures/unary-letter.pdf>
-Package pdftex.def Info: Pictures/unary-letter.pdf  used on input line 49.
+Package pdftex.def Info: Pictures/unary-letter.pdf  used on input line 73.
 (pdftex.def)             Requested size: 22.76096pt x 14.96158pt.
-<Pictures/dom.pdf, id=226, 47.33943pt x 18.12083pt>
+<Pictures/dom.pdf, id=230, 50.23888pt x 10.22653pt>
 File: Pictures/dom.pdf Graphic file (type pdf)
 <use Pictures/dom.pdf>
-Package pdftex.def Info: Pictures/dom.pdf  used on input line 83.
-(pdftex.def)             Requested size: 47.3393pt x 18.12077pt.
-<Pictures/example-graph-term.pdf, id=227, 968.7838pt x 185.69255pt>
+Package pdftex.def Info: Pictures/dom.pdf  used on input line 107.
+(pdftex.def)             Requested size: 50.23874pt x 10.22649pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[][]\T1/lmr/m/n/10 (+20) describe more
+ []
+
+<Pictures/example-graph-term.pdf, id=231, 968.7838pt x 183.83244pt>
 File: Pictures/example-graph-term.pdf Graphic file (type pdf)
 <use Pictures/example-graph-term.pdf>
-Package pdftex.def Info: Pictures/example-graph-term.pdf  used on input line 10
-3.
-(pdftex.def)             Requested size: 339.0794pt x 64.99336pt.
- [3.3 <./Pictures/example-graph.pdf> <./Pictures/unary-letter.pdf
+Package pdftex.def Info: Pictures/example-graph-term.pdf  used on input line 12
+7.
+(pdftex.def)             Requested size: 339.0794pt x 64.34232pt.
+[3.3 <./Pictures/example-graph.pdf> <./Pictures/unary-letter.pdf
 
 pdfTeX warning: pdflatex (file ./Pictures/unary-letter.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
@@ -1811,62 +1832,58 @@ s with page group included in a single page
 pdfTeX warning: pdflatex (file ./Pictures/example-graph-term.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (4.81609pt too wide) in paragraph at lines 139--146
+Overfull \hbox (4.81609pt too wide) in paragraph at lines 163--170
 []
  []
 
 Package hyperref Info: bookmark level for unknown proposition defaults to 0 on 
-input line 172.
+input line 196.
 [4.4]
 Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
-t line 197.
-
-Overfull \hbox (8.0273pt too wide) detected at line 221
+t line 226.
+ [5.5]
+Overfull \hbox (8.0273pt too wide) detected at line 250
 []
  []
 
-[5.5]
-Overfull \hbox (0.25652pt too wide) detected at line 231
+
+Overfull \hbox (0.25652pt too wide) detected at line 260
 []
  []
 
-<Pictures/unary-and-binary-faces.pdf, id=288, 637.25597pt x 140.83565pt>
+<Pictures/unary-and-binary-faces.pdf, id=296, 637.25597pt x 140.83565pt>
 File: Pictures/unary-and-binary-faces.pdf Graphic file (type pdf)
 <use Pictures/unary-and-binary-faces.pdf>
 Package pdftex.def Info: Pictures/unary-and-binary-faces.pdf  used on input lin
-e 300.
+e 329.
 (pdftex.def)             Requested size: 254.89787pt x 56.33325pt.
 [6.6 <./Pictures/unary-and-binary-faces.pdf>]
-<Pictures/spdt.pdf, id=308, 995.40688pt x 157.28397pt>
+<Pictures/spdt.pdf, id=312, 995.40688pt x 157.28397pt>
 File: Pictures/spdt.pdf Graphic file (type pdf)
 <use Pictures/spdt.pdf>
-Package pdftex.def Info: Pictures/spdt.pdf  used on input line 312.
+Package pdftex.def Info: Pictures/spdt.pdf  used on input line 341.
 (pdftex.def)             Requested size: 398.1557pt x 62.91246pt.
 
 
-LaTeX Warning: Citation `Damien' on page 7 undefined on input line 318.
+LaTeX Warning: Citation `Damien' on page 7 undefined on input line 347.
 
-<Pictures/spt.pdf, id=309, 888.68333pt x 132.4572pt>
+<Pictures/spt.pdf, id=313, 888.68333pt x 132.4572pt>
 File: Pictures/spt.pdf Graphic file (type pdf)
 <use Pictures/spt.pdf>
-Package pdftex.def Info: Pictures/spt.pdf  used on input line 329.
+Package pdftex.def Info: Pictures/spt.pdf  used on input line 358.
 (pdftex.def)             Requested size: 311.04382pt x 46.3607pt.
-<Pictures/island.pdf, id=310, 585.98991pt x 187.66855pt>
+<Pictures/island.pdf, id=314, 585.98991pt x 187.66855pt>
 File: Pictures/island.pdf Graphic file (type pdf)
 <use Pictures/island.pdf>
-Package pdftex.def Info: Pictures/island.pdf  used on input line 346.
+Package pdftex.def Info: Pictures/island.pdf  used on input line 375.
 (pdftex.def)             Requested size: 205.09953pt x 65.68497pt.
 [7.7 <./Pictures/spdt.pdf> <./Pictures/spt.pdf
 
 pdfTeX warning: pdflatex (file ./Pictures/spt.pdf): PDF inclusion: multiple pdf
 s with page group included in a single page
-> <./Pictures/island.pdf
-
-pdfTeX warning: pdflatex (file ./Pictures/island.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
 >]
 Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
-line 370.
+line 399.
 ) (./3-Regular-Expressions.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 1.
@@ -1893,36 +1910,39 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-<Pictures/word-alphabet.pdf, id=330, 802.07945pt x 42.59892pt>
+<Pictures/word-alphabet.pdf, id=336, 802.07945pt x 42.59892pt>
 File: Pictures/word-alphabet.pdf Graphic file (type pdf)
 <use Pictures/word-alphabet.pdf>
 Package pdftex.def Info: Pictures/word-alphabet.pdf  used on input line 8.
 (pdftex.def)             Requested size: 296.76476pt x 15.76134pt.
-<Pictures/multiset-alphabet.pdf, id=331, 803.94034pt x 203.49954pt>
+[8.8 <./Pictures/island.pdf>]
+<Pictures/multiset-alphabet.pdf, id=360, 803.94034pt x 203.49954pt>
 File: Pictures/multiset-alphabet.pdf Graphic file (type pdf)
 <use Pictures/multiset-alphabet.pdf>
 Package pdftex.def Info: Pictures/multiset-alphabet.pdf  used on input line 12.
 
 (pdftex.def)             Requested size: 281.38333pt x 71.22589pt.
-[8.8 <./Pictures/word-alphabet.pdf>]
-<Pictures/word-and-multiset-graphs.pdf, id=354, 780.97435pt x 94.22209pt>
+<Pictures/word-and-multiset-graphs.pdf, id=361, 780.97435pt x 94.22209pt>
 File: Pictures/word-and-multiset-graphs.pdf Graphic file (type pdf)
 <use Pictures/word-and-multiset-graphs.pdf>
 Package pdftex.def Info: Pictures/word-and-multiset-graphs.pdf  used on input l
 ine 19.
 (pdftex.def)             Requested size: 312.3842pt x 37.68816pt.
- [9.9 <./Pictures/multiset-alphabet.pdf> <./Pictures/word-and-multiset-graphs.p
-df
+ [9.9 <./Pictures/word-alphabet.pdf> <./Pictures/multiset-alphabet.pdf
+
+pdfTeX warning: pdflatex (file ./Pictures/multiset-alphabet.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./Pictures/word-and-multiset-graphs.pdf
 
 pdfTeX warning: pdflatex (file ./Pictures/word-and-multiset-graphs.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<Pictures/expl0.pdf, id=374, 387.47366pt x 13.38164pt>
+<Pictures/expl0.pdf, id=380, 387.47366pt x 13.38164pt>
 File: Pictures/expl0.pdf Graphic file (type pdf)
 <use Pictures/expl0.pdf>
 Package pdftex.def Info: Pictures/expl0.pdf  used on input line 123.
 (pdftex.def)             Requested size: 387.4727pt x 13.38159pt.
-<Pictures/expl1.pdf, id=375, 387.47366pt x 49.37811pt>
+<Pictures/expl1.pdf, id=381, 387.47366pt x 49.37811pt>
 File: Pictures/expl1.pdf Graphic file (type pdf)
 <use Pictures/expl1.pdf>
 Package pdftex.def Info: Pictures/expl1.pdf  used on input line 129.
@@ -1932,59 +1952,55 @@ Package pdftex.def Info: Pictures/expl1.pdf  used on input line 129.
 pdfTeX warning: pdflatex (file ./Pictures/expl1.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
 >]
-<Pictures/TxT.pdf, id=399, 1014.76479pt x 132.97374pt>
+<Pictures/TxT.pdf, id=405, 1014.76479pt x 132.97374pt>
 File: Pictures/TxT.pdf Graphic file (type pdf)
 <use Pictures/TxT.pdf>
 Package pdftex.def Info: Pictures/TxT.pdf  used on input line 142.
 (pdftex.def)             Requested size: 355.17299pt x 46.54149pt.
-) (./4-Companion-Relations.tex
-<Pictures/guarded-set-of-paths.pdf, id=403, 855.68462pt x 153.85448pt>
+) (./4-Companion-Relations.tex [11.11 <./Pictures/TxT.pdf>]
+<Pictures/guarded-set-of-paths.pdf, id=427, 855.68462pt x 153.85448pt>
 File: Pictures/guarded-set-of-paths.pdf Graphic file (type pdf)
 <use Pictures/guarded-set-of-paths.pdf>
 Package pdftex.def Info: Pictures/guarded-set-of-paths.pdf  used on input line 
-17.
+19.
 (pdftex.def)             Requested size: 342.26778pt x 61.54068pt.
- [11.11 <./Pictures/TxT.pdf> <./Pictures/guarded-set-of-paths.pdf
-
-pdfTeX warning: pdflatex (file ./Pictures/guarded-set-of-paths.pdf): PDF inclus
-ion: multiple pdfs with page group included in a single page
->]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 37.
+(hyperref)                removing `math shift' on input line 39.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 37.
+(hyperref)                removing `superscript' on input line 39.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 37.
+(hyperref)                removing `math shift' on input line 39.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 37.
+(hyperref)                removing `math shift' on input line 39.
 
-<Pictures/encoding-set-of-paths.pdf, id=423, 454.14122pt x 73.02492pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 39.
+
+[12.12 <./Pictures/guarded-set-of-paths.pdf>]
+<Pictures/encoding-set-of-paths.pdf, id=448, 454.14122pt x 73.02492pt>
 File: Pictures/encoding-set-of-paths.pdf Graphic file (type pdf)
 <use Pictures/encoding-set-of-paths.pdf>
 Package pdftex.def Info: Pictures/encoding-set-of-paths.pdf  used on input line
- 64.
+ 66.
 (pdftex.def)             Requested size: 204.36165pt x 32.86089pt.
-[12.12 <./Pictures/encoding-set-of-paths.pdf>]
 Package hyperref Info: bookmark level for unknown claim defaults to 0 on input 
-line 76.
-<Pictures/proof-encoding-paths.pdf, id=446, 718.16284pt x 310.03447pt>
+line 78.
+<Pictures/proof-encoding-paths.pdf, id=451, 718.16284pt x 310.03447pt>
 File: Pictures/proof-encoding-paths.pdf Graphic file (type pdf)
 <use Pictures/proof-encoding-paths.pdf>
 Package pdftex.def Info: Pictures/proof-encoding-paths.pdf  used on input line 
-89.
+91.
 (pdftex.def)             Requested size: 215.45052pt x 93.01105pt.
- [13.13 <./Pictures/proof-encoding-paths.pdf>]) (./5-Regular->MSO.tex
+ [13.13 <./Pictures/encoding-set-of-paths.pdf>]) (./5-Regular->MSO.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
@@ -2013,22 +2029,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 24.
 
-[14.14]
-<Pictures/decomposition.pdf, id=477, 3175.60721pt x 928.8941pt>
+[14.14 <./Pictures/proof-encoding-paths.pdf>]
+<Pictures/decomposition.pdf, id=480, 3175.60721pt x 928.8941pt>
 File: Pictures/decomposition.pdf Graphic file (type pdf)
 <use Pictures/decomposition.pdf>
 Package pdftex.def Info: Pictures/decomposition.pdf  used on input line 52.
 (pdftex.def)             Requested size: 317.57933pt x 92.89485pt.
-<Pictures/body.pdf, id=479, 2520.37631pt x 493.38533pt>
+<Pictures/body.pdf, id=482, 2520.37631pt x 493.38533pt>
 File: Pictures/body.pdf Graphic file (type pdf)
 <use Pictures/body.pdf>
 Package pdftex.def Info: Pictures/body.pdf  used on input line 73.
 (pdftex.def)             Requested size: 252.0524pt x 49.34142pt.
- [15.15 <./Pictures/decomposition.pdf> <./Pictures/body.pdf
-
-pdfTeX warning: pdflatex (file ./Pictures/body.pdf): PDF inclusion: multiple pd
-fs with page group included in a single page
->]
+ [15.15 <./Pictures/decomposition.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 108.
@@ -2041,6 +2053,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 108.
 
+[16.16 <./Pictures/body.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 138.
@@ -2053,96 +2066,189 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 138.
 
-<Pictures/complete-set.pdf, id=626, 1045.33603pt x 425.4394pt>
+<Pictures/complete-set.pdf, id=648, 1045.33603pt x 425.4394pt>
 File: Pictures/complete-set.pdf Graphic file (type pdf)
 <use Pictures/complete-set.pdf>
 Package pdftex.def Info: Pictures/complete-set.pdf  used on input line 156.
 (pdftex.def)             Requested size: 125.4349pt x 51.05052pt.
-[16.16]
-Overfull \hbox (33.49901pt too wide) in paragraph at lines 163--171
-[][] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
  []
 
-[17.17 <./Pictures/complete-set.pdf>]
-<Pictures/transfer-interpretation.pdf, id=672, 2476.7894pt x 427.4327pt>
+
+Underfull \vbox (badness 2799) has occurred while \output is active []
+
+ [17.17 <./Pictures/complete-set.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18.18]
+<Pictures/transfer-interpretation.pdf, id=684, 2476.7894pt x 427.4327pt>
 File: Pictures/transfer-interpretation.pdf Graphic file (type pdf)
 <use Pictures/transfer-interpretation.pdf>
 Package pdftex.def Info: Pictures/transfer-interpretation.pdf  used on input li
-ne 214.
+ne 238.
 (pdftex.def)             Requested size: 297.2019pt x 51.2897pt.
+
+[19.19 <./Pictures/transfer-interpretation.pdf>]
 Package hyperref Info: bookmark level for unknown corollary defaults to 0 on in
-put line 242.
+put line 266.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 245.
+(hyperref)                removing `math shift' on input line 269.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 245.
+(hyperref)                removing `math shift' on input line 269.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 245.
+(hyperref)                removing `math shift' on input line 269.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 245.
+(hyperref)                removing `superscript' on input line 269.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 245.
+(hyperref)                removing `math shift' on input line 269.
 
-[18.18 <./Pictures/transfer-interpretation.pdf>]
-<Pictures/decomp-test.pdf, id=726, 942.22314pt x 221.89157pt>
+<Pictures/decomp-test.pdf, id=735, 942.22314pt x 221.89157pt>
 File: Pictures/decomp-test.pdf Graphic file (type pdf)
 <use Pictures/decomp-test.pdf>
-Package pdftex.def Info: Pictures/decomp-test.pdf  used on input line 252.
+Package pdftex.def Info: Pictures/decomp-test.pdf  used on input line 276.
 (pdftex.def)             Requested size: 310.9346pt x 73.22444pt.
-<Pictures/decomp-test-proof.pdf, id=728, 669.28922pt x 215.38164pt>
+[20.20 <./Pictures/decomp-test.pdf>]
+<Pictures/decomp-test-proof.pdf, id=754, 669.28922pt x 215.38164pt>
 File: Pictures/decomp-test-proof.pdf Graphic file (type pdf)
 <use Pictures/decomp-test-proof.pdf>
-Package pdftex.def Info: Pictures/decomp-test-proof.pdf  used on input line 296
+Package pdftex.def Info: Pictures/decomp-test-proof.pdf  used on input line 320
 .
 (pdftex.def)             Requested size: 240.94392pt x 77.53732pt.
- [19.19 <./Pictures/decomp-test.pdf> <./Pictures/decomp-test-proof.pdf
+ [21.21 <./Pictures/decomp-test-proof.pdf>]
+<Pictures/decomp-dom.pdf, id=769, 1047.74542pt x 251.76431pt>
+File: Pictures/decomp-dom.pdf Graphic file (type pdf)
+<use Pictures/decomp-dom.pdf>
+Package pdftex.def Info: Pictures/decomp-dom.pdf  used on input line 375.
+(pdftex.def)             Requested size: 345.75706pt x 83.08247pt.
 
-pdfTeX warning: pdflatex (file ./Pictures/decomp-test-proof.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
->] [20.20]
-Overfull \hbox (11.13286pt too wide) detected at line 366
+Overfull \hbox (11.13286pt too wide) detected at line 393
 []
  []
 
-[21.21] [22.22] [23.23] [24.24] [25.25]) (./6-Recognizable->Regular.tex
-[26.26] [27.27]
+[22.22 <./Pictures/decomp-dom.pdf>] [23.23] [24.24] [25.25] [26.26])
+(./6-Recognizable->Regular.tex [27.27]
+Underfull \hbox (badness 7832) in paragraph at lines 55--55
+[][]\T1/lmr/m/n/10 (+20) define domain-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+\T1/lmr/m/n/10 (+20) modules and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+\T1/lmr/m/n/10 (+20) guarded-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[][]\T1/lmr/m/n/10 (+20) algebras are
+ []
+
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 57--57
+\T1/lmr/m/n/10 (+20) ba-sic-ally series-
+ []
+
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+[28.28] [29.29]
+
+LaTeX Warning: Reference `lem:tau-modules-substitution' on page 30 undefined on
+ input line 133.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+<Pictures/proof-rec->reg-dom-free.pdf, id=894, 1229.33827pt x 203.37782pt>
+File: Pictures/proof-rec->reg-dom-free.pdf Graphic file (type pdf)
+<use Pictures/proof-rec->reg-dom-free.pdf>
+Package pdftex.def Info: Pictures/proof-rec->reg-dom-free.pdf  used on input li
+ne 147.
+(pdftex.def)             Requested size: 368.80432pt x 61.01381pt.
+[30.30 <./Pictures/proof-rec->reg-dom-free.pdf>]
+
+LaTeX Warning: Reference `lem:tau-modules-substitution' on page 31 undefined on
+ input line 197.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+<Pictures/proof-rec->reg-dom.pdf, id=912, 1336.66846pt x 286.76324pt>
+File: Pictures/proof-rec->reg-dom.pdf Graphic file (type pdf)
+<use Pictures/proof-rec->reg-dom.pdf>
+Package pdftex.def Info: Pictures/proof-rec->reg-dom.pdf  used on input line 21
+3.
+(pdftex.def)             Requested size: 401.00363pt x 86.02963pt.
+
+Overfull \hbox (2.66505pt too wide) in paragraph at lines 213--214
+ [] 
+ []
+
+[31.31]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 128.
+(hyperref)                removing `math shift' on input line 221.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 128.
+(hyperref)                removing `subscript' on input line 221.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 128.
+(hyperref)                removing `math shift' on input line 221.
 
-[28.28]) (./7-Conclusion.tex) [29.29] (./0-main.bbl
+) (./7-Conclusion.tex) [32.32 <./Pictures/proof-rec->reg-dom.pdf>]
+(./0-main.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 6.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [30.30
+)
+[33.33
 
-]
-(./0-main.aux)
+] (./0-main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.75pt have occurred.
@@ -2150,20 +2256,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `0-main.out' has not changed.
-(rerunfilecheck)             Checksum: 433EBE8624B721FA137F1980F5C7FA99;6614.
+(rerunfilecheck)             Checksum: 8501F3607685037C0BC68EAD4F2D257D;6760.
  ) 
 Here is how much of TeX's memory you used:
- 42986 strings out of 478994
- 810619 string characters out of 5858190
- 1191544 words of memory out of 5000000
- 58719 multiletter control sequences out of 15000+600000
- 603614 words of font info for 428 fonts, out of 8000000 for 9000
+ 43587 strings out of 478994
+ 820929 string characters out of 5858190
+ 1212730 words of memory out of 5000000
+ 59281 multiletter control sequences out of 15000+600000
+ 604422 words of font info for 436 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,102p,3269b,1072s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,16n,102p,3239b,1070s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2021/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2021/texmf-dist/
@@ -2199,10 +2302,10 @@ f-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2021/t
 exmf-dist/fonts/type1/public/old-arrows/oasy10.pfb></usr/local/texlive/2021/tex
 mf-dist/fonts/type1/public/old-arrows/oasy9.pfb></usr/local/texlive/2021/texmf-
 dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on 0-main.pdf (30 pages, 855525 bytes).
+Output written on 0-main.pdf (33 pages, 906793 bytes).
 PDF statistics:
- 1082 PDF objects out of 1200 (max. 8388607)
- 921 compressed objects within 10 object streams
- 325 named destinations out of 1000 (max. 500000)
- 105352 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 1133 PDF objects out of 1200 (max. 8388607)
+ 966 compressed objects within 10 object streams
+ 341 named destinations out of 1000 (max. 500000)
+ 105375 words of extra memory for PDF output out of 106986 (max. 10000000)
 

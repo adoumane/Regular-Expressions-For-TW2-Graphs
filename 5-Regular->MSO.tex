@@ -35,7 +35,7 @@ Let $G$ be a graph and $H, K$ be subgraphs of $G$.  We say that $H$ and $K$ are 
 Two independent subgraphs can share at most two vertices.
 \end{remark}
 \begin{definition}[Decompositions]
-A \emph{decomposition} of $G$ is a set $\cD$  of modules of $G$ such that  $G\in \cD$ and for every pair of  graphs in $\cD$, they are either independent, or module one of the other. We call  the graphs of  a decomposition its \emph{components}. We call \emph{the interfaces of $\cD$} the set of interfaces of its components. 
+A \emph{decomposition} of $G$ is a set $\cD$  of modules of $G$ such that  $G\in \cD$ and for every pair of  graphs in $\cD$, they are either independent, or strict module one of the other. We call  the graphs of  a decomposition its \emph{components}. We call \emph{the interfaces of $\cD$} the set of interfaces of its components. 
 \smallskip
 
 Let $H$ and $K$ be components of a decomposition $\cD$. We say that $H$ is a \emph{child} of $K$, if $H$ is a module of $K$, and if there is no component $C$ of $\cD$, distinct from $H$ and $K$,  such that $H$ is a module of $C$ and $C$ is a module of $K$. 
@@ -57,7 +57,7 @@ The graph $G$ is called the \emph{head} of $\cD$. A component of $\cD$ is a \emp
 Let $G$ be a graph, $\cD$ a decomposition of $G$ and $C$ a component of $\cD$. 
 \smallskip
 
-The \emph{body} of $C$ is the subgraph of $G$ whose vertices are those of $C$ minus the \textbf{inner} vertices of its children; and whose edges are those of $C$ minus those of its children.  
+The \emph{body} of $C$ is the subgraph of $G$ whose vertices are those of $C$ minus the \textbf{inner} vertices of its children; and whose edges are those of $C$ minus those of its children. We denote it by  $\mathsf{body}_\cD(C)$.  
 \smallskip
 
 The \emph{$x$-body of $C$} is the graph whose interface is the interface of $C$, whose vertices are the vertices of the body of $C$, and whose edges are the edges of the body of $C$ plus, for each child $F$ of $C$, an $x$-edge whose interface is the interface of $F$.  We denote it  by $x\text{-}\mathsf{body}_\cD(C)$.
@@ -131,7 +131,7 @@ There is a $\CMSOd$ formula $\mathsf{decomp}(\cX)$, \emph{without graph set quan
 \begin{proof} 
 We can express in $\CMSOd$ that a graph is a module of another graph using Prop.~\ref{prop:pure-modules-are-CMSO}. We can express that two graphs $(s,Z,t)$ and $(s',Z',t')$ are independent using the following formula:
 $$ (x\in Z\  \wedge\  x\in Z')\ \ \Rightarrow (x=s\  \vee\  x=s'\  \vee\  x=t\ \vee\ x=t')$$
- This is how we express that $\cX$ is a decomposition. Note that we do not need to introduce a  quantification on new graphs set variables. 
+ This is how we express that $\cX$ is a decomposition. Note that we do not need to introduce a  quantification on new graph set variables. 
 \end{proof}
 
 
@@ -145,10 +145,10 @@ Given a $\CMSO$ formula $\phi$, we construct a formula $\tms{\phi}$ having $\cX$
 Let $H$ be a set of edges and vertices of $G$. We say that $H$ is \emph{complete} if, whenever it contains an edge or an inner vertex of a child $C$ of $G$ (seen as a component of $\cD$), then it contains all the edges and  inner vertices of $C$. 
 \smallskip
 
-Let $K$ be a set of edges and vertices of the $x$\text{-}body of $G$.  We denote by $\mathsf{complete}_\cD(K)$ the set of edges and vertices of $G$,  obtained from $K$ by replacing every $x$-edge coming from a child $C$ of $G$  by the set of edges and inner vertices $C$.  
+Let $K$ be a set of edges and vertices of the $x$\text{-}body of $G$.  We denote by $\mathsf{completion}_\cD(K)$ the set of edges and vertices of $G$,  obtained from $K$ by replacing every $x$-edge coming from a child $C$ of $G$  by the set of edges and inner vertices $C$.  
 \end{definition}
 \begin{remark}
-Note that if $H$ is complete, there is a set $S$ such that $H=\mathsf{complete}_\cD(S)$.
+Note that if $H$ is complete, there is a set $S$ such that $H=\mathsf{completion}_\cD(S)$.
 \end{remark}
 
 Here is a picture illustrating complete sets. The green part is the body of $G$ and the purple modules are its children. The yellow sets are complete, but the pink one is not. 
@@ -157,21 +157,43 @@ Here is a picture illustrating complete sets. The green part is the body of $G$ 
 \end{center}
 
 \begin{proposition}
-The following  formulas are  $\CMSOd$ definable:
-\smallskip
-
-\begin{tabular}{lrp{11cm}}
- $\mathsf{child}_\cX(Y)$&:&  $Y$ is the set of edges and inner vertices of a child of the input graph w.r.t. the decomposition  $\cX$.\\[4pt]
- $\mathsf{is\text{-}complete}_\cX(Y)$&:&  $Y$ is complete wrt $\cX$.\\[4pt]
- $\mathsf{body\text{-}edge}_\cX(Y)$&:& $Y$ is a singleton containing an edge from the body of the input graph wrt $\cX$.\\[4pt]
- $\mathsf{source}_\cX(Y,Z)$&:& $\mathsf{child}_\cX(Z)$ and $Y$ is a singleton containing the input of the corresponding child. \\[4pt]
- $\mathsf{target}_\cX(Y,Z)$&: &the same as above, where input should be replaced by output.\\[4pt]
-  $\mathsf{choice}_\cX(Y,Z)$&: & $Z$ contains all the body elements of $Y$, and for every child contained in $Y$, $Z$ contains exactly one element of this child.
+There are $\CMSO$ formulas $\mathsf{child}_\cX(Y)$, $\mathsf{complete}_\cX(Y)$, $\mathsf{body\text{-}edge}_\cX(Y)$, $\mathsf{source}_\cX(Y,Z)$, $\mathsf{target}_\cX(Y,Z)$ and $\mathsf{choice}_\cX(Y,Z)$ such that, for every graph $G$, every decomposition $\cD$, every subsets $H$ and $K$ of the edges and the vertices of $G$, we have the following, where  we write, by abuse of notation, $\mathsf{child}_\cD(H)$ instead of $\langle G, \cX\mapsto \cD, Y\mapsto H\rangle\models \mathsf{child}_\cX(Y)$ etc:\\
+\noindent \begin{flushleft}
+\begin{tabular}{llp{10cm}} 
+$ \mathsf{child}_\cD(s,H,t)$&$\Leftrightarrow$& $s, t\notin H$ and $(s,H\cup\set{s,t},t)$ is a child of $G$ w.r.t.  $\cD$.\\[10pt]
+$\mathsf{child}_\cD(H)$&$\Leftrightarrow$& $H$ is the set of edges and inner vertices of a child of $G$ w.r.t.  $\cD$.\\[10pt]
+ $ \mathsf{complete}_\cD(H)$ &$\Leftrightarrow$&  $H$ is complete w.r.t. $\cD$.\\[10pt]
+ $\mathsf{body\text{-}edge}_\cD(H)$&$\Leftrightarrow$& $H$ is a singleton containing an edge from  $\mathsf{body}_\cD(G)$.\\[10pt]
+ $ \mathsf{source}_\cD(H,K)$&$\Leftrightarrow$& there are vertices  $ s$ and $t$ of $G$ such that $H=\set{s}$  and   $\mathsf{child}_\cD(s,K,t)$.\\[10pt]
+ 
+ $\mathsf{target}_\cD(H,K)$&$\Leftrightarrow$ &there are vertices  $ s$ and $t$ of $G$ such that $H=\set{t}$  and   $\mathsf{child}_\cD(s,K,t)$.\\[10pt]
+  $\mathsf{choice}_\cD(H,K)$&$\Leftrightarrow$ & $H$ is complete,  $K$ contains $\mathsf{body}_\cD(G)\cap H$, and contains exactly one edge of each  child of $G$  contained in $H$.
 \end{tabular}
+\end{flushleft}
 \end{proposition}
-%\begin{proof}\todo{complete}
-%Faire le cas child et choice qui est le plus interessant. 
-%\end{proof}
+
+
+\begin{proof}
+We define the formulas of the proposition as follows. The formulas between quotation marks are not primitives of $\CMSO$ but can be  easily defined by $\CMSO$ formulas. 
+ \begin{align*}
+\mathsf{child}_\cX(x,Y,y)\ := \ \neg(x\in Y)\ \wedge\ &  \neg(y\in Y)\ \wedge\  \exists Z.\ (\text{``$Z=Y\cup\set{x,y}$''} \ \wedge\ (x,Z,y)\in \cX ) \\
+\wedge\ \big(\ \forall Z'. \forall x', \forall y'.&\ (x',Z', y')\in \cX \wedge \text{``$(x,Z,y)$ is a module of $(x',Z',y')$''}\\
+                    & \Rightarrow\ \text{``$(x',Z',y')$ is the whole graph.''}\ \big)
+\end{align*} 
+$$ 
+\begin{array}{lll}
+\mathsf{child}_\cX(Y) &:= &  \exists x.\ \exists y.\ \mathsf{child}_\cX(x,Y,y) \\[10pt]
+\mathsf{complete}_\cX(Y)& := &  (\exists Z.\ \exists x.\ \mathsf{child}_\cX(Z)\ \wedge\ \text{``$x\in Y\cap Z$''} )\ \ \Rightarrow\ \ (Z\subseteq Y) \\[10pt]
+ \mathsf{body}_\cX(x) &:= &\forall Z.\ \ \mathsf{child}_\cX(Z)\ \Rightarrow\ \neg(x\in Z) \\[10pt]
+ \mathsf{body\text{-}edge}_\cX(Y)& :=& \exists x.\ \text{``$Y=\set{x}$''} \ \wedge \ \mathsf{body}_\cX(x)\\[10pt]
+ \mathsf{choice}_\cX(Y,Z)&:=& \ \mathsf{complete}_\cX(Y)\ \wedge \ \forall x.\ (x\in Y)\wedge \mathsf{body}_\cX(x)\ \Rightarrow\ (x\in Z)\ \\
+ && \wedge\ \forall C.\ \mathsf{child}_\cX(C)\ \wedge \ (C\subseteq Y) \Rightarrow\ 
+ \text{``$\exists!  x\in (C\cap Z)$''}    
+\end{array}
+$$
+The formula $ \text{``$\exists!  x\in (C\cap Z)$''}$ is the following:
+$$ \exists x.\ \text{``$(x\in C\cap  Z)$''}\wedge \forall y.\ \text{``$(y\in C\cap Z)$''} \ \Rightarrow \ (y=x)$$
+ \end{proof}
 %\begin{remark}
 %Pour construire $\mathsf{choice}_\cX(Y,Z)$, nous avons besoin que les elements de la decomposition ne soient pas vides. 
 %\end{remark}
@@ -184,9 +206,11 @@ The following  formulas are  $\CMSOd$ definable:
     \tms{\neg \phi}&= & \neg \tms{\phi}\\[4pt]
       \tms{(|Y|\equiv k)[m]}&= & \exists Z.\ \mathsf{choice}_\cX(Y,Z)\wedge (|Z|\equiv k)[m]\\[4pt]
    \tms{Y\subseteq Z}&= & Y\subseteq Z \\[4pt]
+    \tms{\mathsf{input}(Y)}&= &  {\mathsf{input}(Y)}\\[4pt]
+     \tms{\mathsf{output}(Y)}&= &  {\mathsf{output}(Y)}\\[4pt]
      \tms{a(Y)}&= & a(Y)\qquad (a\neq x) \\[4pt]
        \tms{x(Y)}&= & \mathsf{child}_\cX(Y) \vee (\mathsf{body\text{-}edge}_\cX(Y)\wedge x(Y) ) \\[4pt]
-        \tms{\exists Y.\ \phi}&= &\exists Y.\ \mathsf{is\text{-}complete}_\cX(Y)\wedge \tms{\phi}\\[4pt]
+        \tms{\exists Y.\ \phi}&= &\exists Y.\ \mathsf{complete}_\cX(Y)\wedge \tms{\phi}\\[4pt]
  \tms{\mathsf{source}(Y,Z)}& =&(\mathsf{body\text{-}edge}_\cX(Z)\wedge \mathsf{source}(Y,Z) )\vee (\mathsf{child}_\cX(Z)\wedge \mathsf{source}_\cX(Y,Z) )\\[4pt]
  \tms{\mathsf{target}(Y,Z)}&= &(\mathsf{body\text{-}edge}_\cX(Z)\wedge \mathsf{target}(Y,Z) )\vee (\mathsf{child}_\cX(Z)\wedge \mathsf{target}_\cX(Y,Z) )
  \end{array}
@@ -206,7 +230,7 @@ $$\langle G,\cX\mapsto\cD\rangle \models\tms{\phi}\qquad \Leftrightarrow \qquad 
 \begin{definition} Let  $\cD$ be a decomposition of  $G$ and $I$  an interpretation of the  set variables $\Gamma$ in  the $x$-body of $G$. We define $I_\cD$, the interpretation of $\Gamma\cup\set{\cX}$ in  $G$ as follows.
 \begin{align*}
 \qquad\qquad \qquad \quad I_\cD:\ \ & \cX \mapsto \cD, \\
-      &   Y \mapsto \mathsf{complete}_\cD(I(Y)), \quad Y\neq \cX.
+      &   Y \mapsto \mathsf{completion}_\cD(I(Y)), \quad Y\neq \cX.
 \end{align*} 
 \end{definition}
 Let $G$ be the left graph below, the purple graphs being its children for a decomposition $\cD$. The right graph is its $x$-body. The right yellow circles represent the interpretation $I$ of the variables $Y$ and $Z$ in the $x$-body. The left yellow circles represent the interpretation $I_\cD$ of these variables in $G$. 
@@ -299,7 +323,7 @@ By Lemma~\ref{lem:decomp-one-step}, the set of subgraphs $\cD$ defined below is 
  $$\cD:=\cD_\mathsf{t}(S_1)\cup\dots\cup\cD_\mathsf{t}(S_k)\cup\set{G}$$
   To conclude we only need to find a set of vertices $S$ of $G$ such that $\cD_\mathsf{t}(S)=\cD$. Let $S=S_1\cup\dots\cup S_k\cup\set{\iota}$, where $\iota$ is the interface of $G$. Let us show that $\cD_\mathsf{t}(S)=\cD$. This is a consequence of the following lemma:
 
-\begin{lemma}\label{lem-max-modules-context} Let $C$ be a context, $K$ a graph  and $I$ an interface in $H$ of the same arity as the hole of $C$. Suppose that the hole of $C$ is not parallel to any module. We have:
+\begin{lemma}\label{lem-max-modules-context} Let $C$ be a context, $K$ a graph  and $I$ an interface in $K$ of the same arity as the hole of $C$. Suppose that the hole of $C$ is not parallel to any module. We have:
 $$ \mathsf{max\text{-}module}_{\;C[K]}(I)=\mathsf{max\text{-}module}_{\;K}(I)$$
 \end{lemma}
 \begin{proof} Let $M:=\mathsf{max\text{-}module}_K(I)$.
@@ -329,7 +353,7 @@ A way to determine if a domain module is in the decomposition is to check whethe
 
 In the following, we show that a set of vertices of a graph (representing the interfaces of a decomposition) together with a coloring of this graph (indicating which modules are leaves), is enough to recover the decomposition. This justifies the following definitions.
  
-\begin{definition}[Coloring, active modules.]
+\begin{definition}[Coloring, Active modules]
 A \emph{coloring} of a graph $G$ is a set of its edges called \emph{leaf edges}. A module of $G$ is \emph{active} if it contains a leaf edge.
 
 % A module is \emph{residual} if all its edges and inner vertices are residual; and \emph{principal} otherwise.
@@ -346,10 +370,13 @@ A \emph{coloring} of a graph $G$ is a set of its edges called \emph{leaf edges}.
  \noindent We let $\cD_\mathsf{d}(S, \col)$ bet the set of active modules of $G$ of type $\mathsf{d}$, whose interfaces belong to $S$. 
 \end{definition}
 
-\begin{example}
+\begin{example} Consider the graph $G$ below, let $S$ be the set of red vertices and let $\col$ be the set containing the green edge. The decomposition $\cD$ below is $\cD_\mathsf{d}(S,\col)$.
+\begin{center}
+\includegraphics[scale=.33]{Pictures/decomp-dom}
+\end{center}
 \end{example}
 
-\begin{proposition}\label{prop:decomp-iteration-dom} Let  $\mu x. L:\mathsf{d}$ be a guarded iteration. We have:
+\begin{proposition}\label{prop:decomp-iteration-dom} Let $L$ be  a domain language and $\mu x. L$ a guarded iteration. We have:
 $$\begin{array}{rll}
  \quad G\in \mu x. L& \Leftrightarrow& \exists S, \col.\quad  S \text{ is a set of vertices and $\col$ a coloring of $G$ such that }\\
                       &             & \qquad\qquad \cD_\mathsf{d}(S,\col) \text{ is an $L$-decomposition of $G$.} 
@@ -375,7 +402,7 @@ We prove, by induction on $n$, that $P_n$ is valid for every $n\geq 1$, which  i
  Let $S_i$ and $\col_i$ be the set of vertices and the coloring provided by induction hypothesis applied to $G_i$, for $i\in[1,k]$. 
  By Lemma~\ref{lem:decomp-one-step}, the set of subgraphs
  $$\cD:=\cD_\mathsf{d}(S_1,\col_1)\cup\dots\cup\cD_\mathsf{d}(S_k,\col_k)\cup\set{G}$$
- is an $L$-decomposition of $G$. To conclude we only need to find a set of vertices $S$ and a coloring $\col$ of $G$ such that $\cD_\mathsf{d}(S,\col)=\cD$. Let $\iota$ be the interface of $G$, and we set:
+ is an $L$-decomposition of $G$. To conclude we only need to find a set of vertices $S$ and a coloring $\col$ of $G$ such that $\cD_\mathsf{d}(S,\col)=\cD$. Let $\iota$ be the interface of $G$, we set:
     $$S:=S_1\cup\dots\cup S_k\cup\set{\iota} \qquad\text{and}\qquad \col:=\col_1\cup\dots\cup \col_k$$
 It is clear that $\cD_\mathsf{d}(S,\col)=\cD$.
 \end{proof}
@@ -548,6 +575,7 @@ $$H=H_1\parallel\dots \parallel H_k$$
 
 If there is $j\in[1,k]$ satisfying $(1)$, then the letter $x$ is $\mathsf{s}$-guarded in $H_j$. We can conclude by induction hypothesis. Otherwise, for all $j\in[1,k]$, $H_j$ is the graph of the letter $x$. Any path from the the input to the output of $H$ satisfies the condition of the claim. 
  \end{proof}
+ We say that a path $p$ is \emph{safe} if it does not contain an interface vertex of $G$ as an inner vertex. 
  We prove by induction on $n\geq 1$ that the interfaces of every $L$-decomposition  of depth $n$ of some graph $G$ form a companion relation, witnessed by a safe set of paths $P$. 
 \medskip
 
